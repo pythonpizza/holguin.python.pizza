@@ -38,17 +38,12 @@ export default class Header extends React.Component {
                 href="#about"
                 data-destination="about"
               >
-                About 🍕
+                Cómo que 🍕
               </a>
             </li>
-
             <li>
-              <a
-                onClick={this.onNavClick}
-                href="#sponsors"
-                data-destination="sponsors"
-              >
-                Sponsors
+              <a onClick={this.onNavClick} href="#coc" data-destination="coc">
+                CoC
               </a>
             </li>
             <li>
@@ -60,29 +55,9 @@ export default class Header extends React.Component {
                 Call for Proposals
               </a>
             </li>
-            <li>
-              <a onClick={this.onNavClick} href="#coc" data-destination="coc">
-                CoC
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://ti.to/pythonpizza/holguin-python-pizza"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Tickets
-              </a>
-            </li>
           </ul>
         </Container>
       </div>
     );
   }
 }
-
-// <li>
-//<a onClick={this.onNavClick} href="#schedule" data-destination="schedule">
-//Schedule
-//</a>
-//</li>

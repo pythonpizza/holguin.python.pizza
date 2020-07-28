@@ -9,18 +9,18 @@ const SOCIALS = [
   {
     name: "facebook",
     icon: require("Assets/socials/facebook.png"),
-    link: "https://www.facebook.com/pythonpizza/"
+    link: "https://www.facebook.com/pythonpizza/",
   },
   {
     name: "twitter",
     icon: require("Assets/socials/twitter.png"),
-    link: "https://twitter.com/pythonpizzaconf/"
+    link: "https://twitter.com/pythonpizzaconf/",
   },
   {
     name: "instagram",
     icon: require("Assets/socials/instagram.png"),
-    link: "https://www.instagram.com/python.pizza/"
-  }
+    link: "https://www.instagram.com/python.pizza/",
+  },
 ];
 
 export default class Footer extends React.Component {
@@ -30,7 +30,7 @@ export default class Footer extends React.Component {
         <Wave />
         <Container size={Sizes.large}>
           <div className="footer--socials">
-            {SOCIALS.map(social => (
+            {SOCIALS.map((social) => (
               <a
                 key={social.name}
                 id={social.name}
@@ -41,7 +41,6 @@ export default class Footer extends React.Component {
                 <img src={social.icon} />
               </a>
             ))}
-            <p>Custom here if you need it</p>
           </div>
         </Container>
       </div>

@@ -10,10 +10,10 @@ export default class Schedule extends React.Component {
       <section id="schedule" className="schedule">
         <Container size={Sizes.large}>
           <Container size={Sizes.small}>
-            <h1>Schedule</h1>
+            <h1>Programa</h1>
           </Container>
           <ul>
-            {SCHEDULE.map(schedule => (
+            {SCHEDULE.map((schedule) => (
               <ScheduleItem
                 key={schedule.order}
                 schedule={schedule}

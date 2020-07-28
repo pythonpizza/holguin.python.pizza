@@ -15,7 +15,7 @@ export default class Speakers extends React.Component {
     return (
       <section id="speakers" className="speakers">
         <Container size={Sizes.large}>
-          <Container size={Sizes.small}>
+          {/* <Container size={Sizes.small}>
             <h1>Keynotes</h1>
           </Container>
           {
@@ -24,21 +24,23 @@ export default class Speakers extends React.Component {
                 <SpeakerCard key={i} speaker={speaker} />
               ))}
             </Grid>
-          }
+          } */}
           <Container size={Sizes.small}>
-            <h1>Speakers</h1>
+            <h1>Charlas</h1>
             <p>
-              The{" "}
+              ¡El{" "}
               <a
                 href="https://forms.gle/Hfdba6uCzeUrbmXM9"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CFP
+                Call for Proposals
               </a>{" "}
-              is open!!! You have until 7th September to apply! Each talk will
-              be 10 minutes long and we would love to have many first time
-              speakers!!
+              ya está abierto! Tienes hasta el 30 de septiembre de 2020 a las
+              11:59 P.M. para presentar tu propuesta de charla. Puedes presentar
+              más de una propuesta, pero recuerda que cada charla solo puede
+              durar 10 minutos. Si nunca has presentado en un evento antes,
+              mejor. ¡Esta es tu oportunidad!
             </p>
           </Container>
         </Container>

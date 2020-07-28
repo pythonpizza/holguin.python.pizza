@@ -7,138 +7,143 @@ import Container, { Sizes } from "@/Components/Container";
 export default () => (
   <section id="coc" className="coc">
     <Container size={Sizes.medium}>
-      <h1>Code of conduct</h1>
-      <h2>Purpose</h2>
+      <h1>Código de Conducta (CoC)</h1>
+      <h2>Propósito</h2>
       <p>
-        Holguín Python Pizza is dedicated to providing a harassment-free
-        conference experience for everyone, regardless of gender, gender
-        identity and expression, sexual orientation, disability, physical
-        appearance, body size, race, age, religion or lack thereof.{" "}
+        Python Pizza Holguín está dedicado a brindar una experiencia libre de
+        acoso para todo el mundo, sin importar género, identidad y expresión de
+        género, orientación sexual, disapacidad o apariencia física, tamaño del
+        cuerpo, raza, edad, religión o ausencia de ella.
       </p>
       <p>
-        We do not tolerate harassment of conference participants in any form.
+        No toleramos ninguna forma de acoso por parte de los participantes de la
+        conferencia.
       </p>
       <p>
-        Sexual language and imagery is not appropriate for any conference venue,
-        including talks.
+        El lenguaje o las analogías de corte sexual no son apropiadas para
+        ningún marco del evento, incluyendo las charlas.
       </p>
       <p>
-        We expect all community participants to abide by this Code of Conduct in
-        all community venues—online and in-person—as well as in all one-on-one
-        communications pertaining to community business.
+        Esperamos que todos los participantes de la cominidad se apeguen a este
+        Código de Conducta en todos los marcos del evento, ya sea online o en
+        persona, incluyendo todas las comunicaciones relacionadas con la
+        administración y organización del evento.
       </p>
       <p>
         <b>
-          Conference participants violating these rules may be sanctioned or
-          expelled from the conference without a refund at the discretion of the
-          conference organisers.
+          Los participantes del evento que violen estas reglas pueden ser
+          sancionados o expulsados de la conferencia a discreción de los
+          organizadores, sin derecho a reembolso de cualquier gasto en que hayan
+          incurrido.
         </b>
       </p>
-      <h2>Expected Behavior</h2>
+      <h2>Comportamiento esperado</h2>
       <ul>
         <li>
-          Participate in an authentic and active way. In doing so, you
-          contribute to the health and longevity of this community.
-        </li>
-        <li> Exercise consideration and respect in your speech and actions.</li>
-        <li> Attempt collaboration before conflict</li>
-        <li> Use inclusive language</li>
-        <li>
-          {" "}
-          Refrain from demeaning, discriminatory, or harassing behavior and
-          speech.
+          Participar de manera auténtica y activa. Al hacerlo, contribuye al
+          desarrollo de la comunidad.
         </li>
         <li>
-          {" "}
-          Be mindful of your surroundings and of your fellow participants.
+          Ejercer la consideración y el respeto en su manera de hablar y de
+          actuar.
         </li>
+        <li>Anteponer la colaboración al conflicto.</li>
+        <li>Usar lenguaje respetuoso e inclusivo.</li>
         <li>
-          {" "}
-          Alert community leaders if you notice a dangerous situation, someone
-          in distress, or violations of this Code of Conduct, even if they seem
-          inconsequential.
+          Abstenerse de lenguaje o comportamiento denigrante, discriminatorio o
+          abusivo.
+        </li>
+        <li>Respetar el derecho ajeno.</li>
+        <li>
+          Alertar a los líderes de la comunidad ante cualquier situación
+          peligrosa, o si nota que alguien está en dificultades, o de cualquier
+          violación de este Código de Conducta, incluso aunque parezca de poca
+          importancia.
         </li>
       </ul>
-      <h2>Unacceptable Behavior</h2>
-      <p>Unacceptable behaviors include, but is not limited to:</p>
+      <h2>Comportamiento inaceptable</h2>
+      <p>Un comportamiento inaceptable incluye, aunque no está limitado a:</p>
       <ul className="unacceptable">
+        <li>Lenguaje o acciones abusivas, discriminatorias o denigrantes.</li>
+        <li>Analogías sexuales en espacios públicos.</li>
+        <li>Acosar, intimidar, seguir o perseguir a alguien.</li>
+        <li>Interrupciones sostenidas de las charlas u otros eventos.</li>
+        <li>Contacto físico inapropiado.</li>
+        <li>Invasión del espacio personal.</li>
         <li>
-          Abusive, discriminatory, derogatory or demeaning speech or actions
+          Defender o animar a otros a hacer cualquiera de los comportamientos
+          anteriores.
         </li>
-        <li>Sexual images in public spaces</li>
-        <li>Harassing, intimidation, stalking, or following</li>
-        <li>Sustained disruption of talks or other events</li>
-        <li>Inappropriate physical contact</li>
-        <li>Invasion of personal space</li>
-        <li>Unwelcome sexual attention</li>
-        <li>Advocating for, or encouraging, any of the above behaviour</li>
       </ul>
-      <h2>Consequences of Unacceptable Behavior</h2>
+      <h2>Consecuencias del comportamiento inaceptable</h2>
       <p>
-        Unacceptable behavior from any community member, including sponsors and
-        those with decision-making authority, will not be tolerated.
+        No será tolerado ningún comportamiento inaceptable por parte de
+        cualquier miembro de la comunidad, incluyendo a los invitados,
+        patrocinadores o personal con poder de decisión en el evento.
       </p>
       <p>
-        Anyone asked to stop unacceptable behavior is expected to comply
-        immediately. If a community member engages in unacceptable behavior, the
-        community organizers may take any action they deem appropriate, up to
-        and including a temporary ban or permanent expulsion from the community
-        without warning (and without refund in the case of a paid event).
+        A cualquiera que se le solicite terminar con el comportamiento
+        inaceptable debe acatar la solicitud inmediatamente. Si un miembro de la
+        comunidad participa de un comportamiento inaceptable, los organizadores
+        actuarán como lo consideren oportuno, incluyendo la limitación temporal
+        de derechos y la expulsión permanente de la comunidad sin advertencia
+        previa (y sin reembolso de cualquer gasto en el que haya incurrido).
       </p>
-      <br></br>
-      <h2>If You Witness or Are Subject to Unacceptable Behavior</h2>
+      <br />
+      <h2>Si usted es testigo o blanco de un comportamiento inaceptable</h2>
       <p>
-        If you are subject to or witness unacceptable behavior, or have any
-        other concerns, please notify a community organizer as soon as possible.
-      </p>
-      <p>
-        We will publish during the conference information on where to make a
-        report.
-      </p>
-
-      <p>
-        {" "}
-        When taking a personal report, our staff will ensure you are safe and
-        cannot be overheard. They may involve other event staff to ensure your
-        report is managed properly.
+        Si usted es testigo o blanco de un comportamiento inaceptable, o tiene
+        cualquier otra preocupación, por favor, notifique a un organizador de la
+        comunidad tan pronto como sea posible.
       </p>
       <p>
-        Once safe, we’ll ask you to tell us about what happened. This can be
-        upsetting, but we’ll handle it as respectfully as possible, and you can
-        bring someone to support you. You won’t be asked to confront anyone and
-        we won’t tell anyone who you are.
-      </p>
-      <p>
-        Our team will be happy to help you contact hotel/venue security, local
-        law enforcement, local support services, provide escorts, or otherwise
-        assist you to feel safe for the duration of the event.
-      </p>
-      <p>We value your attendance.</p>
-      <h2>Anonymous report</h2>
-      <p>
-        You can make an anonymous report (we will publish a form for anonymous
-        reports).
-      </p>
-      <p>
-        We can’t follow up an anonymous report with you directly, but we will
-        fully investigate it and take whatever action is necessary to prevent a
-        recurrence
+        Durante el evento será publicada la información de cómo hacer un reporte
+        de manera oficial.
       </p>
 
-      <h2>Addressing Grievances</h2>
       <p>
-        If you feel you have been falsely or unfairly accused of violating this
-        Code of Conduct, you should notify one of the event organizers with a
-        concise description of your grievance.
+        Cuando recibimos una intención de reporte, nuestro equipo se asegurará
+        de que quien hace el reporte esté en un lugar seguro y no pueda ser
+        escuchado por otros. Puede que tengamos a más de un miembro del equipo
+        presente para asegurarnos de que el reporte sea manejado apropiadamente.
       </p>
       <p>
-        Your grievance will be handled in accordance with our existing governing
-        policies.
+        Una vez seguro, le pediremos que nos diga lo que ocurrió. Puede que
+        contar el problema sea incómodo, pero procuraremos manejar la situación
+        con el mayor respeto posible. No se le pedirá que confronte a nadie, ni
+        le diremos a nadie que usted hizo un reporte.
+      </p>
+      <p>
+        Nuestro equipo estará listo para contactar a las autoridades, proveer
+        compañía, o asistirle de alguna otra forma, de manera que usted se
+        sienta seguro por el resto del evento.
+      </p>
+      <p>Valoramos su colaboración.</p>
+      <h2>Reportes anónimos</h2>
+      <p>
+        Aceptamos también reportes anónimos (para lo cual proveeremos de un
+        formulario en línea).
+      </p>
+      <p>
+        No podremos responder a un reporte anónimo directamente, pero
+        investigaremos y tomaremos las acciones que consideremos necesarias para
+        prevenir que un hecho semejante vuelva a ocurrir.
       </p>
 
-      <h2>Credits</h2>
+      <h2>Desagravios y quejas</h2>
       <p>
-        This Code of Conduct was inspired by the{" "}
+        Si usted considera que ha sido falsa o injustamente acusado de violar
+        este Código de Conducta, deberá notificar a uno de los organizadores del
+        evento con una descripción concisa de su queja.
+      </p>
+      <p>
+        Su queja será procesada de acuerdo con nuestras políticas de
+        organización y administración.
+      </p>
+
+      <h2>Créditos</h2>
+      <p>
+        Este código de conducta está inspirado en el código de{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -146,15 +151,15 @@ export default () => (
         >
           Berlin
         </a>{" "}
-        and{" "}
+        y{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
           href="https://2018.jsconf.eu/code-of-conduct/"
         >
           JS Conf
-        </a>{" "}
-        code of conducts.
+        </a>
+        .
       </p>
     </Container>
   </section>

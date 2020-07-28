@@ -17,7 +17,7 @@
   min-height: 48rem;
   padding-top: 32.9rem;
   position: relative;
-  background: url(../../../assets/bg.jpg) center / cover;
+  background: url(../../../assets/bg.jpg) bottom / cover;
   opacity: 0.7;
 
   @media (--mobile) {

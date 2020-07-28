@@ -9,36 +9,38 @@ export default class About extends React.Component {
         <Container size={Sizes.medium}>
           <h1>Python Pizza</h1>
           <p>
-            <b>Python Pizza</b> is a micro conference organized by the Python
-            Holguín Community.
+            <b>Python Pizza</b> es una micro conferencia organizada por la
+            comunidad de Python en Holguín, la primera de su tipo en toda Cuba.
+            Nos complace juntar a los pythonistas holguineros (y cubanos en
+            general) para comer Pizza™ (o Croqueta™) y hablar un rato de Python.
           </p>
+          <br />
           <p>
-            We bring the Python Community together for some amazing original
-            Pizza™ and Python Talks.
+            La marca distintiva de esta micro conferencia está en presentar
+            sesiones prácticas, en las cuales los desarrolladores expongan sus
+            experiencias con proyectos de la vida real.
+            <br />
+            Cada charla dura 10 minutos (ni más, ni menos).
           </p>
+          <br />
+          <p>¡Gracias a Python Pizza (Nápoles) que inventó este formato!</p>
+          <br />
           <p>
-            We believe in and encourage practical sessions, in which developers
-            share their experience and lessons from real-world projects, each
-            talk is 10 mins long.
-          </p>
-          <p>Thanks to the Python Pizza (Naples!) that started this format!</p>
-          <br></br>
-          <p>
-            Check out the past editions:{" "}
+            Mira las ediciones pasadas en el mundo:{" "}
             <a
               href="https://python.pizza"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Naples Python Pizza
+              Python Pizza Nápoles
             </a>{" "}
-            and{" "}
+            y{" "}
             <a
               href="https://berlin.python.pizza"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Berlin Python Pizza
+              Python Pizza Berlín
             </a>
             .{" "}
           </p>
