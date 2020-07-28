@@ -30,7 +30,7 @@ export default class Speakers extends React.Component {
             <p>
               ¡El{" "}
               <a
-                href="https://forms.gle/Hfdba6uCzeUrbmXM9"
+                href="https://forms.gle/wbKkpmf9nibnNQZy6"
                 target="_blank"
                 rel="noopener noreferrer"
               >
