@@ -9,13 +9,13 @@
   },
   "devDependencies": {
     "@poi/plugin-typescript": "12.2.1",
-    "@types/react": "16.9.18",
-    "@types/react-dom": "16.9.5",
+    "@types/react": "16.9.43",
+    "@types/react-dom": "16.9.8",
     "eslint": "^6.8.0",
     "eslint-config-synacor": "^3.0.5",
     "if-env": "^1.0.0",
     "poi": "12.7.5",
-    "react-hot-loader": "4.12.18"
+    "react-hot-loader": "4.12.21"
   },
   "dependencies": {
     "@types/classnames": "^2.2.9",
@@ -23,9 +23,9 @@
     "classnames": "^2.2.5",
     "eslint-plugin-typescript": "0.14.0",
     "postcss-custom-media": "7.0.8",
-    "postcss-nested": "4.2.1",
+    "postcss-nested": "4.2.3",
     "prettier": "^1.19.1",
-    "raw-loader": "4.0.0",
+    "raw-loader": "4.0.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "smoothscroll-polyfill": "0.4.4",
