@@ -1,0 +1,17 @@
+.container {
+  margin: 0 auto;
+  padding: 0 3rem;
+  max-width: var(--container-size);
+
+  &--small {
+    --container-size: 72rem;
+  }
+
+  &--medium {
+    --container-size: 96rem;
+  }
+
+  &--large {
+    --container-size: 120rem;
+  }
+}

@@ -1,0 +1,40 @@
+.home section.coc {
+  padding-bottom: 9rem;
+}
+
+.coc {
+  p + p,
+  p + ul,
+  ul + p {
+    padding-top: 1rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .container.container--medium p {
+    text-align: left;
+  }
+
+  h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  a {
+    color: var(--primary-color);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    list-style-type: "\2705  ";
+    padding-left: 2rem;
+  }
+
+  ul.unacceptable {
+    list-style-type: "\274c  ";
+  }
+}

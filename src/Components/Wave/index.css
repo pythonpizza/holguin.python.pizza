@@ -1,0 +1,21 @@
+.wave {
+  width: 100%;
+  margin: auto 0 0;
+  overflow: hidden;
+
+  svg {
+    display: block;
+    width: 300%;
+    fill: var(--white);
+    animation: wave-animation 30s linear infinite forwards;
+  }
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-66.66%);
+  }
+}

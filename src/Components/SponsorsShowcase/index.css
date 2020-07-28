@@ -1,0 +1,53 @@
+.sponsors-showcase {
+  margin: 5rem 0;
+
+  img {
+    width: 14rem;
+    height: auto;
+  }
+
+  a {
+    margin: 1.5rem 0;
+
+    &#notabug img {
+      width: 12rem;
+    }
+
+    &#psf img {
+      width: 16rem;
+    }
+
+    @media (--tablet) {
+      margin: 0;
+    }
+  }
+
+  &--row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+
+    align-items: center;
+    justify-items: center;
+
+    margin: 2rem 0;
+  }
+
+  @media (--tablet) {
+    &--row {
+      grid-template-columns: repeat(4, 1fr);
+
+      &:first-child {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      &:last-child {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      #bit4id {
+        grid-column-start: 4;
+      }
+    }
+  }
+}

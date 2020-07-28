@@ -1,0 +1,37 @@
+{
+  "name": "hamburg.python.pizza",
+  "version": "2019",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi --serve",
+    "build": "poi --prod"
+  },
+  "devDependencies": {
+    "@poi/plugin-typescript": "12.2.1",
+    "@types/react": "16.9.18",
+    "@types/react-dom": "16.9.5",
+    "eslint": "^6.8.0",
+    "eslint-config-synacor": "^3.0.5",
+    "if-env": "^1.0.0",
+    "poi": "12.7.5",
+    "react-hot-loader": "4.12.18"
+  },
+  "dependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/smoothscroll-polyfill": "0.3.1",
+    "classnames": "^2.2.5",
+    "eslint-plugin-typescript": "0.14.0",
+    "postcss-custom-media": "7.0.8",
+    "postcss-nested": "4.2.1",
+    "prettier": "^1.19.1",
+    "raw-loader": "4.0.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "smoothscroll-polyfill": "0.4.4",
+    "tslint": "6.0.0",
+    "typescript": "3.7.5",
+    "typescript-eslint-parser": "22.0.0",
+    "yarn": "^1.22.0"
+  }
+}

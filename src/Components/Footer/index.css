@@ -1,0 +1,62 @@
+.footer {
+  background: var(--primary-color);
+
+  .wave {
+    transform: scale(-1);
+  }
+
+  &--socials {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0;
+
+    a {
+      display: inline-block;
+
+      width: 3.2rem;
+      height: 3.2rem;
+      margin: 0 1rem;
+
+      transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+      cursor: pointer;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      &:hover {
+        perspective: 24rem;
+
+        transform: scale(1.1);
+        img {
+          animation: lollipop 1.6s linear infinite alternate both;
+        }
+      }
+    }
+  }
+  p {
+    color: var(--white);
+    display: block;
+    margin-top: 1.5rem;
+  }
+}
+
+@keyframes lollipop {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+  25% {
+    transform: rotateX(15deg) rotateY(0) rotateZ(5deg);
+  }
+  50% {
+    transform: rotateX(-15deg) rotateY(15deg) rotateZ(-5deg);
+  }
+  75% {
+    transform: rotateX(15deg) rotateY(-15deg) rotateZ(-5deg);
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(5deg);
+  }
+}

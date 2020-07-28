@@ -1,0 +1,85 @@
+/*@keyframes wave-animation {
+    from {
+        transform: translateX(5rem);
+    }
+    to {
+        transform: translateX(-5rem);
+    }
+}*/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 133vh;
+  min-height: 48rem;
+  padding-top: 32.9rem;
+  position: relative;
+  background: url(../../../assets/bg.jpg) center / cover;
+  opacity: 0.7;
+
+  @media (--mobile) {
+    padding-top: 16.9rem;
+    height: 100vh;
+  }
+
+  @media (--tablet) {
+    padding-top: 11rem;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+    opacity: 0.6;
+
+    @supports (mix-blend-mode: hard-light) {
+      opacity: 1;
+      mix-blend-mode: hard-light;
+    }
+  }
+
+  &--info {
+    z-index: 1;
+    padding: 0 3rem;
+    margin: auto;
+
+    h1 {
+      font-size: 4.2rem;
+      font-weight: bold;
+
+      @media (--mobile) {
+        font-size: 5.4rem;
+      }
+
+      @media (--tablet) {
+        font-size: 8rem;
+      }
+    }
+
+    h2 {
+      font-size: 2.6rem;
+
+      @media (--mobile) {
+        font-size: 3.5rem;
+      }
+
+      a {
+        font-size: inherit;
+        color: currentColor;
+      }
+    }
+
+    h1,
+    h2 {
+      text-align: center;
+      color: var(--white);
+    }
+  }
+}

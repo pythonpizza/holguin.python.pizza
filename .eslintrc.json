@@ -1,0 +1,14 @@
+{
+    "extends": "eslint-config-synacor",
+    "parser": "typescript-eslint-parser",
+    "plugins": ["typescript"],
+    "rules": {
+        "indent": ["error", 4],
+        "comma-dangle": 0,
+        "react/prefer-stateless-function": 0,
+        "no-undef": 0,
+        "no-unused-vars": 0,
+        "react/jsx-indent-props": 0,
+        "compat/compat": 0
+    }
+}

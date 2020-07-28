@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto+Mono");
+body {
+  font-family: var(--font-name--paragraph);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-name--heading);
+  font-weight: 400;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: var(--size-heading-1);
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: var(--size-heading-2);
+}
+
+p,
+li,
+a,
+div {
+  font-size: var(--size-text);
+  color: var(--text-color);
+}
+
+p {
+  line-height: 1.5;
+}

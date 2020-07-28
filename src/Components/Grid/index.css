@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: var(--grid-columns);
+  grid-column-gap: 3rem;
+  grid-row-gap: 0;
+  align-items: flex-start;
+  margin: 5rem 0;
+
+  > :not(:first-child) {
+    margin-top: 3rem;
+  }
+
+  @media (--tablet) {
+    > * {
+      margin-top: 0rem !important;
+    }
+  }
+}

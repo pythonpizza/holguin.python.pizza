@@ -1,0 +1,19 @@
+.home {
+  section {
+    padding: 5rem 0;
+
+    .container--small,
+    .container--medium {
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+      a {
+        color: red;
+      }
+    }
+  }
+}
