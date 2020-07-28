@@ -38,7 +38,7 @@ export default class Header extends React.Component {
                 href="#about"
                 data-destination="about"
               >
-                Cómo que 🍕
+                ¿Cómo que 🍕?
               </a>
             </li>
             <li>
