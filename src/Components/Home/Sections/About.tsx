@@ -10,7 +10,7 @@ export default class About extends React.Component {
           <h1>Python Pizza</h1>
           <p>
             <b>Python Pizza</b> is a micro conference organized by the Python
-            Hamburg Community.
+            Holguín Community.
           </p>
           <p>
             We bring the Python Community together for some amazing original

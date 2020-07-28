@@ -1,70 +1,84 @@
-import * as React from 'react';
+import * as React from "react";
 
-import Container, { Sizes } from '@/Components/Container';
-import Logo from '@/Components/Logo';
+import Container, { Sizes } from "@/Components/Container";
+import Logo from "@/Components/Logo";
 
-import './index.css';
+import "./index.css";
 
 export default class Header extends React.Component {
-    onNavClick(e: React.MouseEvent<HTMLAnchorElement>) {
-        e.preventDefault();
+  onNavClick(e: React.MouseEvent<HTMLAnchorElement>) {
+    e.preventDefault();
 
-        const target = e.target as HTMLAnchorElement;
-        const destinationId = target.getAttribute('data-destination');
-        const destinationDom: HTMLElement | null = window.document.querySelector(`#${destinationId}`);
+    const target = e.target as HTMLAnchorElement;
+    const destinationId = target.getAttribute("data-destination");
+    const destinationDom: HTMLElement | null = window.document.querySelector(
+      `#${destinationId}`
+    );
 
-        if (!destinationDom) {
-            return;
-        }
-
-        window.scrollTo({
-            top: destinationDom.offsetTop,
-            behavior: 'smooth',
-        });
+    if (!destinationDom) {
+      return;
     }
 
-    render() {
-        return (
-            <div className="header">
-                <Container size={Sizes.large}>
-                    <Logo className="header--logo" />
+    window.scrollTo({
+      top: destinationDom.offsetTop,
+      behavior: "smooth",
+    });
+  }
 
-                    <ul className="header--links">
-                        <li>
-                            <a onClick={this.onNavClick} href="#about" data-destination="about">
-                                About 🍕
-                            </a>
-                        </li>
+  render() {
+    return (
+      <div className="header">
+        <Container size={Sizes.large}>
+          <Logo className="header--logo" />
 
-                        <li>
-                            <a onClick={this.onNavClick} href="#sponsors" data-destination="sponsors">
-                                Sponsors
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://forms.gle/Hfdba6uCzeUrbmXM9" target="_blank" rel="noopener noreferrer">
-                                Call for Proposals
-                            </a>
-                        </li>
-                        <li>
-                            <a onClick={this.onNavClick} href="#coc" data-destination="coc">
-                                CoC
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://ti.to/pythonpizza/hamburg-python-pizza"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Tickets
-                            </a>
-                        </li>
-                    </ul>
-                </Container>
-            </div>
-        );
-    }
+          <ul className="header--links">
+            <li>
+              <a
+                onClick={this.onNavClick}
+                href="#about"
+                data-destination="about"
+              >
+                About 🍕
+              </a>
+            </li>
+
+            <li>
+              <a
+                onClick={this.onNavClick}
+                href="#sponsors"
+                data-destination="sponsors"
+              >
+                Sponsors
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://forms.gle/Hfdba6uCzeUrbmXM9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Call for Proposals
+              </a>
+            </li>
+            <li>
+              <a onClick={this.onNavClick} href="#coc" data-destination="coc">
+                CoC
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://ti.to/pythonpizza/holguin-python-pizza"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Tickets
+              </a>
+            </li>
+          </ul>
+        </Container>
+      </div>
+    );
+  }
 }
 
 // <li>

@@ -10,7 +10,7 @@ export default () => (
       <h1>Code of conduct</h1>
       <h2>Purpose</h2>
       <p>
-        Hamburg Python Pizza is dedicated to providing a harassment-free
+        Holguín Python Pizza is dedicated to providing a harassment-free
         conference experience for everyone, regardless of gender, gender
         identity and expression, sexual orientation, disability, physical
         appearance, body size, race, age, religion or lack thereof.{" "}
