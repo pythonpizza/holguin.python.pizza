@@ -11,8 +11,20 @@ export default class Hero extends React.Component {
         <div className="hero--info">
           <h1>Python Pizza</h1>
           <h2>
-            <a target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.cuba.travel/destinos/holguin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Holguín
+            </a>{" "}
+            +{" "}
+            <a
+              href="https://www.cuba.travel/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cuba
             </a>
           </h2>
           <h2>Noviembre de 2020</h2>

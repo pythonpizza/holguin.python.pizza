@@ -7,12 +7,18 @@ export default class About extends React.Component {
     return (
       <section id="about">
         <Container size={Sizes.medium}>
-          <h1>Python Pizza</h1>
+          <h1>
+            <img src={require("Assets/cuba.png")} alt="Cuban flag" />
+            <br />
+            Python Pizza
+          </h1>
+
           <p>
             <b>Python Pizza</b> es una micro conferencia organizada por la
-            comunidad de Python en Holguín, la primera de su tipo en toda Cuba.
-            Nos complace juntar a los pythonistas holguineros (y cubanos en
-            general) para comer Pizza™ (o Croqueta™) y hablar un rato de Python.
+            comunidad de Python en <b>Holguín</b>, la primera de su tipo en toda
+            Cuba. Nos complace juntar a los pythonistas holguineros (y cubanos
+            en general) para comer Pizza™ (o Croqueta™) y hablar un rato de
+            Python.
           </p>
           <br />
           <p>
@@ -23,24 +29,36 @@ export default class About extends React.Component {
             Cada charla dura 10 minutos (ni más, ni menos).
           </p>
           <br />
-          <p>¡Gracias a Python Pizza (Nápoles) que inventó este formato!</p>
+          <p>
+            La idea original de estos eventos viene de Python Pizza Nápoles.
+            ¡Gracias por la idea!
+          </p>
           <br />
           <p>
-            Mira las ediciones pasadas en el mundo:{" "}
+            Mira las ediciones pasadas en el mundo:
+            <br />
             <a
               href="https://python.pizza"
               target="_blank"
               rel="noopener noreferrer"
             >
               Python Pizza Nápoles
-            </a>{" "}
-            y{" "}
+            </a>
+            {", "}
             <a
               href="https://berlin.python.pizza"
               target="_blank"
               rel="noopener noreferrer"
             >
               Python Pizza Berlín
+            </a>{" "}
+            y{" "}
+            <a
+              href="https://remote.python.pizza"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Python Pizza Remoto
             </a>
             .{" "}
           </p>
