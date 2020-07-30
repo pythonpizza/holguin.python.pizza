@@ -42,6 +42,20 @@ export default class Speakers extends React.Component {
               durar 10 minutos. Si nunca has presentado en un evento antes,
               mejor. ¡Esta es tu oportunidad!
             </p>
+            <br />
+            <p>
+              Queremos llegar a toda la comunidad de Python de Cuba, por esto
+              estamos pensando en pre-grabar todas las charlas que sean
+              aceptadas, de modo que puedan estar disponibles para todo el que
+              quiera verlas y aprender de ellas.
+            </p>
+            <br />
+            <p>
+              Si la situación con el COVID-19 lo permite, planeamos hacer el
+              Python Pizza presencial en Holguín, donde se presentarán todos los
+              ponentes aceptados que puedan hacer el viaje hasta la ciudad de
+              los parques.
+            </p>
           </Container>
         </Container>
       </section>
