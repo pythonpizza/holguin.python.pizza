@@ -27,7 +27,7 @@ export default class Speakers extends React.Component {
           } */}
           <Container size={Sizes.small}>
             <h1>Charlas</h1>
-            <p>
+            {/* <p>
               ¡El{" "}
               <a
                 href="https://forms.gle/wbKkpmf9nibnNQZy6"
@@ -41,7 +41,7 @@ export default class Speakers extends React.Component {
               más de una propuesta, pero recuerda que cada charla solo puede
               durar 10 minutos. Si nunca has presentado en un evento antes,
               mejor. ¡Esta es tu oportunidad!
-            </p>
+            </p> */}
             <br />
             <p>
               Queremos llegar a toda la comunidad de Python de Cuba, por esto

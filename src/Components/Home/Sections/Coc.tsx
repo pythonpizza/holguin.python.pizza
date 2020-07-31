@@ -12,7 +12,7 @@ export default () => (
       <p>
         Python Pizza Holguín está dedicado a brindar una experiencia libre de
         acoso para todo el mundo, sin importar género, identidad y expresión de
-        género, orientación sexual, disapacidad o apariencia física, tamaño del
+        género, orientación sexual, discapacidad o apariencia física, tamaño del
         cuerpo, raza, edad, religión o ausencia de ella.
       </p>
       <p>
