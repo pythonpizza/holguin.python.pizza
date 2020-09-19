@@ -10,24 +10,29 @@ export default () => (
       <h1>Código de Conducta (CoC)</h1>
       <p>
         Todos los participantes de Python Pizza Holguín estan obligados a
-        cumplir el siguiente código de conducta. Los organizadores serán los
-        encargados de hacerlo cumplir durante todo el evento.
+        cumplir el siguiente código de conducta.
       </p>
       <p>
-        Python Pizza Holguín está comprometido con proveer una experiencia libre
-        de acoso de todo tipo para todos los participantes, sin importar género,
-        identidad y expresión de género, orientación sexual, discapacidad o
-        apariencia física, tamaño del cuerpo, raza, edad, religión (o ausencia
-        de ella) y preferencias de tecnología.
+        Python Pizza Holguín es un evento inclusivo, comprometido con proveer
+        una experiencia libre de discriminación para todos los participantes,
+        sin importar género, identidad y expresión de género, orientación
+        sexual, discapacidad o apariencia física, tamaño del cuerpo, raza, edad,
+        religión (o ausencia de ella) y preferencias de tecnología.
       </p>
       <p>
-        No toleramos ninguna forma de acoso por parte de los participantes de la
-        conferencia. No toleramos ninguna expresión política contraria al
-        gobiero o al pueblo cubano. El lenguaje o las analogías de corte sexual
-        no son apropiadas para ningún marco del evento, incluyendo las charlas.
+        No toleramos ninguna forma de acoso o discriminación por parte de los
+        participantes en la conferencia. No toleramos ninguna forma de expresión
+        contraria al gobiero o al pueblo cubano. El lenguaje o las analogías de
+        corte sexual no son apropiadas en ningún marco del evento, incluyendo
+        las charlas.
+      </p>
+      <p>
         Los participantes del evento que violen estas reglas pueden ser
-        sancionados o expulsados de la conferencia a discreción de los
-        organizadores.
+        sancionados o expulsados de la conferencia, con efecto inmediato, a
+        discreción de los organizadores. Si usted es víctima o testigo de algun
+        hecho que pueda violar este código de conducta, no dude en comunicarlo a
+        los organizadores del evento, los que juzgarán la situación y actuarán
+        de manera apropiada y oportuna.
       </p>
     </Container>
   </section>
