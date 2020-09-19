@@ -36,22 +36,23 @@ export default class Speakers extends React.Component {
               >
                 Call for Proposals
               </a>{" "}
-              ya está abierto! Tienes hasta el domingo 18 de octubre de 2020 a
-              las 11:59 P.M. para presentar tu propuesta de charla. Puedes
-              presentar más de una propuesta, pero recuerda que cada charla solo
-              puede durar 10 minutos. Si nunca has presentado en un evento
-              antes, mejor. ¡Esta es tu oportunidad!
+              ya está abierto! Tienes hasta el{" "}
+              <b>domingo 18 de octubre de 2020 a las 11:59 P.M.</b> para
+              presentar tu propuesta de charla. Puedes presentar más de una
+              propuesta, pero recuerda que cada charla solo puede durar{" "}
+              <b>10 minutos</b>. Si nunca has presentado en un evento antes,
+              mejor. ¡Esta es tu oportunidad!
             </p>
             <br />
             <p>
-              Las charlas seleccionadas serán pre-grabadas y puestas a
+              Las charlas seleccionadas serán <b>pre-grabadas</b> y puestas a
               disposición de todos los participantes. Tendremos más detalles
               sobre esto próximamente.
             </p>
             <br />
             <p>
               Si la situación con el COVID-19 lo permite, planeamos hacer el
-              Python Pizza presencial en Holguín el sábado 14 de noviembre de
+              Python Pizza presencial en Holguín, el sábado 14 de noviembre de
               2020.
             </p>
           </Container>

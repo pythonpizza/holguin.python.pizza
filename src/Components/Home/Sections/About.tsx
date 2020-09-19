@@ -15,27 +15,21 @@ export default class About extends React.Component {
 
           <p>
             <b>Python Pizza</b> es una micro conferencia organizada por la
-            comunidad de software libre en <b>Holguín</b>, la primera de su tipo
-            en toda Cuba. Nos complace juntar a los pythonistas holguineros (y
-            cubanos en general) para comer Pizza™ (o Croqueta™) y hablar un rato
-            de Python.
+            comunidad de software libre en <b>Holguín</b>. Nos complace juntar a
+            los pythonistas holguineros (y cubanos en general) para comer Pizza™
+            (o Croqueta™) y hablar un rato de Python. La marca distintiva de
+            este tipo de micro conferencias está en presentar sesiones
+            prácticas, en las cuales los desarrolladores expongan sus
+            experiencias con proyectos de la vida real. Cada charla dura{" "}
+            <b>10 minutos</b> (ni más, ni menos).
           </p>
           <br />
           <p>
-            La marca distintiva de esta micro conferencia está en presentar
-            sesiones prácticas, en las cuales los desarrolladores expongan sus
-            experiencias con proyectos de la vida real.
+            La edición 2020 del Python Pizza Holguín es la primera de su tipo en
+            toda Cuba, aunque la idea original viene de Python Pizza Nápoles.
+            ¡Gracias por la idea! Si quieres saber más, mira lo que ha sucedido
+            en las ediciones pasadas de Python Pizza en otras partes del mundo:
             <br />
-            Cada charla dura 10 minutos (ni más, ni menos).
-          </p>
-          <br />
-          <p>
-            La idea original de estos eventos viene de Python Pizza Nápoles.
-            ¡Gracias por la idea!
-          </p>
-          <br />
-          <p>
-            Mira las ediciones pasadas en el mundo:
             <br />
             <a
               href="https://python.pizza"
@@ -43,8 +37,8 @@ export default class About extends React.Component {
               rel="noopener noreferrer"
             >
               Python Pizza Nápoles
-            </a>
-            {", "}
+            </a>{" "}
+            &middot;{" "}
             <a
               href="https://berlin.python.pizza"
               target="_blank"
@@ -52,7 +46,7 @@ export default class About extends React.Component {
             >
               Python Pizza Berlín
             </a>{" "}
-            y{" "}
+            &middot;{" "}
             <a
               href="https://remote.python.pizza"
               target="_blank"
