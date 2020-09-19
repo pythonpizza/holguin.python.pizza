@@ -9,9 +9,9 @@ export default class Sponsors extends React.Component {
     return (
       <section id="sponsors">
         <Container size={Sizes.small}>
-          <h1>Sponsors</h1>
+          <h1>Auspiciado por</h1>
         </Container>
-        <Container size={Sizes.large}>
+        <Container size={Sizes.small}>
           <SponsorsShowcase sponsors={SPONSORS} />
         </Container>
       </section>
