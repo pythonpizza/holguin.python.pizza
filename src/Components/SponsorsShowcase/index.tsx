@@ -19,7 +19,7 @@ export default class SponsorsShowcase extends React.Component<
         {sponsors.map((row, i) => {
           return (
             <div key={i} className="sponsors-showcase--row">
-              {row.map(sponsor => (
+              {row.map((sponsor) => (
                 <a
                   className="sponsors-showcase--sponsor"
                   id={sponsor.id}

@@ -17,7 +17,28 @@ export const SPEAKERS: Speaker[] = [
   },
 ];
 
-export const SPONSORS: Sponsor[][] = [];
+export const SPONSORS: Sponsor[][] = [
+  [
+    // {
+    //   id: "psf",
+    //   name: "Python Software Foundation",
+    //   link: "https://www.python.org/psf/",
+    //   photo: require("../assets/sponsors/psf-logo-narrow-256x84-alpha.png"),
+    // },
+    {
+      id: "uic",
+      name: "Unión de Informáticos de Cuba - Holguín",
+      link: "https://uic.cu/",
+      photo: require("../assets/sponsors/uic.svg"),
+    },
+    {
+      id: "gutl",
+      name: "Grupo de Usuarios de Tecnologías Libres - Holguín",
+      link: "https://gutl.jovenclub.cu/",
+      photo: require("../assets/sponsors/gutl_logo.png"),
+    },
+  ],
+];
 
 export const SCHEDULE: Schedule[] = [
   // {
