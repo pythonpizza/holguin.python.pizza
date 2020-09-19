@@ -27,7 +27,7 @@ export default class Hero extends React.Component {
               Cuba
             </a>
           </h2>
-          <h2>A principios de 2021</h2>
+          <h2>14 de noviembre de 2020</h2>
         </div>
 
         <Wave />

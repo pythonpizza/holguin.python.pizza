@@ -27,7 +27,7 @@ export default class Speakers extends React.Component {
           } */}
           <Container size={Sizes.small}>
             <h1>Charlas</h1>
-            {/* <p>
+            <p>
               ¡El{" "}
               <a
                 href="https://forms.gle/wbKkpmf9nibnNQZy6"
@@ -36,25 +36,23 @@ export default class Speakers extends React.Component {
               >
                 Call for Proposals
               </a>{" "}
-              ya está abierto! Tienes hasta el 30 de septiembre de 2020 a las
-              11:59 P.M. para presentar tu propuesta de charla. Puedes presentar
-              más de una propuesta, pero recuerda que cada charla solo puede
-              durar 10 minutos. Si nunca has presentado en un evento antes,
-              mejor. ¡Esta es tu oportunidad!
-            </p> */}
+              ya está abierto! Tienes hasta el domingo 18 de octubre de 2020 a
+              las 11:59 P.M. para presentar tu propuesta de charla. Puedes
+              presentar más de una propuesta, pero recuerda que cada charla solo
+              puede durar 10 minutos. Si nunca has presentado en un evento
+              antes, mejor. ¡Esta es tu oportunidad!
+            </p>
             <br />
             <p>
-              Queremos llegar a toda la comunidad de Python de Cuba, por esto
-              estamos pensando en pre-grabar todas las charlas que sean
-              aceptadas, de modo que puedan estar disponibles para todo el que
-              quiera verlas y aprender de ellas.
+              Las charlas seleccionadas serán pre-grabadas y puestas a
+              disposición de todos los participantes. Tendremos más detalles
+              sobre esto próximamente.
             </p>
             <br />
             <p>
               Si la situación con el COVID-19 lo permite, planeamos hacer el
-              Python Pizza presencial en Holguín, donde se presentarán todos los
-              ponentes aceptados que puedan hacer el viaje hasta la ciudad de
-              los parques.
+              Python Pizza presencial en Holguín el sábado 14 de noviembre de
+              2020.
             </p>
           </Container>
         </Container>

@@ -15,10 +15,10 @@ export default class About extends React.Component {
 
           <p>
             <b>Python Pizza</b> es una micro conferencia organizada por la
-            comunidad de Python en <b>Holguín</b>, la primera de su tipo en toda
-            Cuba. Nos complace juntar a los pythonistas holguineros (y cubanos
-            en general) para comer Pizza™ (o Croqueta™) y hablar un rato de
-            Python.
+            comunidad de software libre en <b>Holguín</b>, la primera de su tipo
+            en toda Cuba. Nos complace juntar a los pythonistas holguineros (y
+            cubanos en general) para comer Pizza™ (o Croqueta™) y hablar un rato
+            de Python.
           </p>
           <br />
           <p>
