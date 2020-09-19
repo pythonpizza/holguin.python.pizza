@@ -29,7 +29,7 @@ export default () => (
       <p>
         Los participantes del evento que violen estas reglas pueden ser
         sancionados o expulsados de la conferencia, con efecto inmediato, a
-        discreción de los organizadores. Si usted es víctima o testigo de algun
+        discreción de los organizadores. Si usted es víctima o testigo de algún
         hecho que pueda violar este código de conducta, no dude en comunicarlo a
         los organizadores del evento, los que juzgarán la situación y actuarán
         de manera apropiada y oportuna.

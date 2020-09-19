@@ -51,7 +51,7 @@ export default class Speakers extends React.Component {
             </p>
             <br />
             <p>
-              Si la situación con el COVID-19 lo permite, planeamos hacer el
+              Si la situación con la COVID-19 lo permite, planeamos hacer el
               Python Pizza presencial en Holguín, el sábado 14 de noviembre de
               2020.
             </p>
