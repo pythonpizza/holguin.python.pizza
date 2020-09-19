@@ -54,7 +54,6 @@ export default class About extends React.Component {
             >
               Python Pizza Remoto
             </a>
-            .{" "}
           </p>
         </Container>
       </section>
