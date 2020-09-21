@@ -28,7 +28,7 @@ export const SPONSORS: Sponsor[][] = [
     {
       id: "uic",
       name: "Unión de Informáticos de Cuba - Holguín",
-      link: "https://uic.cu/",
+      link: "https://www.uic.cu/",
       photo: require("../assets/sponsors/uic.svg"),
     },
     {
