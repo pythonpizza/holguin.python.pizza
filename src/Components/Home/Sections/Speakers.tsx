@@ -55,6 +55,11 @@ export default class Speakers extends React.Component {
               Python Pizza presencial en Holguín, el sábado 14 de noviembre de
               2020.
             </p>
+            <br />
+            <p>
+              Si tienes dudas o preguntas, puedes contactarnos en{" "}
+              <a href="mailto:holguin@python.pizza">holguin@python.pizza</a>.
+            </p>
           </Container>
         </Container>
       </section>
