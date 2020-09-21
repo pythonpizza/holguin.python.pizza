@@ -23,11 +23,34 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      - name: Preview URL
-        uses: unsplash/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OUTPUT: "This pull request is being automatically deployed to Netlify.\n\n🔍 Inspect: ${{ steps.deploy-neflify.outputs.NETLIFY_LOGS_URL }}\n✅ Preview: ${{ steps.deploy-neflify.outputs.NETLIFY_URL }}"
+      - name: Find Deploy Comment
+        uses: peter-evans/find-comment@v1
+        id: find_comment
         with:
-          msg: ${{ env.OUTPUT }}
-          check_for_duplicate_msg: false
+          token: ${{ secrets.BOT_TOKEN }}
+          issue-number: ${{ github.event.number }}
+          comment-author: pythonpizzabot
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v1
+        if: ${{ steps.find_comment.outputs.comment-id == null }}
+        with:
+          token: ${{ secrets.BOT_TOKEN }}
+          issue-number: ${{ github.event.number }}
+          body: |
+            This pull request is being automatically deployed to Netlify.
+
+            🔍 Inspect: ${{ steps.deploy-neflify.outputs.NETLIFY_LOGS_URL }}
+            ✅ Preview: ${{ steps.deploy-neflify.outputs.NETLIFY_URL }}
+      - name: Update comment
+        uses: peter-evans/create-or-update-comment@v1
+        if: ${{ steps.find_comment.outputs.comment-id != null }}
+        with:
+          token: ${{ secrets.BOT_TOKEN }}
+          issue-number: ${{ github.event.number }}
+          edit-mode: replace
+          comment-id: ${{ steps.find_comment.outputs.comment-id }}
+          body: |
+            This pull request is being automatically deployed to Netlify.
+
+            🔍 Inspect: ${{ steps.deploy-neflify.outputs.NETLIFY_LOGS_URL }}
+            ✅ Preview: ${{ steps.deploy-neflify.outputs.NETLIFY_URL }}
