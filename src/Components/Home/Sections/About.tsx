@@ -26,21 +26,21 @@ export default class About extends React.Component {
           <br />
           <p>
             La edición 2020 del Python Pizza Holguín es la primera de su tipo en
-            toda Cuba, aunque la idea original viene de Python Pizza Nápoles.
-            ¡Gracias por la idea! Si quieres saber más, mira lo que ha sucedido
-            en las ediciones pasadas de Python Pizza en otras partes del mundo:
+            toda Cuba, aunque la idea original viene de Python Pizza Nápoles. Si
+            quieres saber más, mira lo que ha sucedido en las ediciones pasadas
+            de Python Pizza en otras partes del mundo:
             <br />
             <br />
             <a
-              href="https://python.pizza"
+              href="https://remote.python.pizza"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Python Pizza Nápoles
+              Python Pizza Remoto
             </a>{" "}
             &middot;{" "}
             <a
-              href="https://berlin.python.pizza"
+              href="https://2019.berlin.python.pizza/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -48,11 +48,11 @@ export default class About extends React.Component {
             </a>{" "}
             &middot;{" "}
             <a
-              href="https://remote.python.pizza"
+              href="https://hamburg.python.pizza/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Python Pizza Remoto
+              Python Pizza Hamburgo
             </a>
           </p>
         </Container>
