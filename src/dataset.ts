@@ -55,6 +55,8 @@ export const SPONSORS: Sponsor[][] = [
       link: "https://www.facebook.com/proyectodelta101",
       photo: require("../assets/sponsors/proyecto_delta.jpg"),
     },
+  ],
+  [
     {
       id: "cuban_trail_team",
       name: "Cuban Trail Team",
