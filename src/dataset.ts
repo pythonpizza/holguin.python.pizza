@@ -49,12 +49,18 @@ export const SPONSORS: Sponsor[][] = [
       link: "https://gutl.jovenclub.cu/",
       photo: require("../assets/sponsors/gutl_logo.png"),
     },
-    // {
-    //   id: "proyecto_delta",
-    //   name: "Proyecto Delta",
-    //   link: "https://www.facebook.com/proyectodelta101",
-    //   photo: require("../assets/sponsors/proyecto_delta.jpg"),
-    // },
+    {
+      id: "proyecto_delta",
+      name: "Proyecto Delta",
+      link: "https://www.facebook.com/proyectodelta101",
+      photo: require("../assets/sponsors/proyecto_delta.jpg"),
+    },
+    {
+      id: "cuban_trail_team",
+      name: "Cuban Trail Team",
+      link: "https://www.cubantrailteam.com/",
+      photo: require("../assets/sponsors/cuban-trail-team.jpg"),
+    },
   ],
 ];
 
