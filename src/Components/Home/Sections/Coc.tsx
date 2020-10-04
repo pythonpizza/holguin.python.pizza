@@ -9,7 +9,7 @@ export default () => (
     <Container size={Sizes.medium}>
       <h1>Código de Conducta (CoC)</h1>
       <p>
-        Todos los participantes de Python Pizza Holguín estan obligados a
+        Todos los participantes de Python Pizza Holguín están obligados a
         cumplir el siguiente código de conducta.
       </p>
       <p>
