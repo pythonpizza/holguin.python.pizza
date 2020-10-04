@@ -9,7 +9,7 @@ export default () => (
     <Container size={Sizes.medium}>
       <h1>Código de Conducta (CoC)</h1>
       <p>
-        Todos los participantes de Python Pizza Holguín estan obligados a
+        Todos los participantes de Python Pizza Holguín están obligados a
         cumplir el siguiente código de conducta.
       </p>
       <p>
@@ -22,7 +22,7 @@ export default () => (
       <p>
         No toleramos ninguna forma de acoso o discriminación por parte de los
         participantes en la conferencia. No toleramos ninguna forma de expresión
-        contraria al gobiero o al pueblo cubano. El lenguaje o las analogías de
+        contraria al gobierno o al pueblo cubano. El lenguaje o las analogías de
         corte sexual no son apropiadas en ningún marco del evento, incluyendo
         las charlas.
       </p>
