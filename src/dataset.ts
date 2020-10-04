@@ -4,17 +4,29 @@ import Schedule, { Types } from "@/Types/Schedule";
 
 export const SPEAKERS: Speaker[] = [
   {
-    name: "Speaker A",
-    photo: "https://via.placeholder.com/150",
-    job: "Job A",
-    social: "http://web.url",
+    name: "Carlos Parra Zaldívar",
+    photo: require("../assets/speakers/carlosparraz.jpg"),
+    job: "Presidente UIC Holguín",
+    social: "https://libreoffice.cubava.cu/",
   },
-  {
-    name: "Speaker B",
-    photo: "https://via.placeholder.com/150",
-    job: "Job B",
-    social: "http://web.url",
-  },
+  // {
+  //   name: "Speaker B",
+  //   photo: "https://via.placeholder.com/150",
+  //   job: "Job B",
+  //   social: "http://web.url",
+  // },
+  // {
+  //   name: "Speaker C",
+  //   photo: "https://via.placeholder.com/150",
+  //   job: "Job C",
+  //   social: "http://web.url",
+  // },
+  // {
+  //   name: "Speaker D",
+  //   photo: "https://via.placeholder.com/150",
+  //   job: "Job D",
+  //   social: "http://web.url",
+  // },
 ];
 
 export const SPONSORS: Sponsor[][] = [
@@ -37,6 +49,12 @@ export const SPONSORS: Sponsor[][] = [
       link: "https://gutl.jovenclub.cu/",
       photo: require("../assets/sponsors/gutl_logo.png"),
     },
+    // {
+    //   id: "proyecto_delta",
+    //   name: "Proyecto Delta",
+    //   link: "https://www.facebook.com/proyectodelta101",
+    //   photo: require("../assets/sponsors/proyecto_delta.jpg"),
+    // },
   ],
 ];
 
