@@ -9,7 +9,8 @@ const SOCIALS = [
   {
     name: "facebook",
     icon: require("Assets/socials/facebook.png"),
-    link: "https://www.facebook.com/pythonpizza/",
+    link:
+      "https://www.facebook.com/events/holguin-la-tierra-mas-hermosa/python-pizza-holgu%C3%ADn/689631564984711/",
   },
   {
     name: "twitter",
@@ -17,9 +18,9 @@ const SOCIALS = [
     link: "https://twitter.com/pythonpizzaconf/",
   },
   {
-    name: "instagram",
-    icon: require("Assets/socials/instagram.png"),
-    link: "https://www.instagram.com/python.pizza/",
+    name: "youtube",
+    icon: require("Assets/socials/youtube.png"),
+    link: "https://youtube.com/channel/UCs3DNJSzJJ5pW0tIKQbOPAA/",
   },
 ];
 
