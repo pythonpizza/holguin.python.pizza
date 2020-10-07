@@ -4,29 +4,17 @@ import Schedule, { Types } from "@/Types/Schedule";
 
 export const SPEAKERS: Speaker[] = [
   {
-    name: "Carlos Parra Zaldívar",
+    name: "Lorena Mesa",
+    photo: require("../assets/speakers/loooorenanicole.jpg"),
+    job: "Presidenta PSF",
+    social: "https://lorenamesa.com/",
+  },
+  {
+    name: "Carlos Parra",
     photo: require("../assets/speakers/carlosparraz.jpg"),
     job: "Presidente UIC Holguín",
     social: "https://libreoffice.cubava.cu/",
   },
-  // {
-  //   name: "Speaker B",
-  //   photo: "https://via.placeholder.com/150",
-  //   job: "Job B",
-  //   social: "http://web.url",
-  // },
-  // {
-  //   name: "Speaker C",
-  //   photo: "https://via.placeholder.com/150",
-  //   job: "Job C",
-  //   social: "http://web.url",
-  // },
-  // {
-  //   name: "Speaker D",
-  //   photo: "https://via.placeholder.com/150",
-  //   job: "Job D",
-  //   social: "http://web.url",
-  // },
 ];
 
 export const SPONSORS: Sponsor[][] = [

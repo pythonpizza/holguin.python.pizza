@@ -16,8 +16,10 @@ export default class SpeakerCard extends React.Component<SpeakerCardProps, {}> {
           style={{ backgroundImage: `url(${speaker.photo})` }}
         />
         <div className="speaker-card--info">
-          <h2>{speaker.name}</h2>
-          <p>{speaker.job}</p>
+          <h2 style={{ fontSize: "1.3em", marginBottom: "0px" }}>
+            {speaker.name}
+          </h2>
+          <small>{speaker.job}</small>
         </div>
       </div>
     );
