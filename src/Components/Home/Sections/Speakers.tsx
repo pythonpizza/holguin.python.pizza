@@ -59,18 +59,6 @@ export default class Speakers extends React.Component {
             Si tienes dudas o preguntas, puedes contactarnos en{" "}
             <a href="mailto:holguin@python.pizza">holguin@python.pizza</a>.
           </p>
-          <br />
-          <br />
-          <p>¡Aquí tienes el video de bienvenida!</p>
-          <br />
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/hQvxtl_xKks"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
         </Container>
       </section>
     );

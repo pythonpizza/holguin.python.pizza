@@ -7,6 +7,7 @@ import Hero from "@/Components/Hero";
 import About from "./Sections/About";
 import Schedule from "./Sections/Schedule";
 import Speakers from "./Sections/Speakers";
+import Videos from "./Sections/Videos";
 import Sponsors from "./Sections/Sponsors";
 import Coc from "./Sections/Coc";
 
@@ -17,6 +18,7 @@ export default class Home extends React.Component {
         <Hero />
         <About />
         <Speakers />
+        <Videos />
         {/* <Schedule /> */}
         <Coc />
         <Sponsors />
