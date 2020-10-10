@@ -9,12 +9,24 @@
   a {
     margin: 1.5rem 0;
 
-    &#notabug img {
-      width: 12rem;
+    &#uic img {
+      width: 16rem;
     }
 
     &#psf img {
+      width: 22rem;
+    }
+
+    &#gutl img {
+      width: 18rem;
+    }
+
+    &#llu img {
       width: 16rem;
+    }
+
+    &#bchc img {
+      width: 8rem;
     }
 
     @media (--tablet) {
@@ -22,7 +34,11 @@
     }
   }
 
-  &--row {
+  &--row1,
+  &--row2,
+  &--row3,
+  &--row4,
+  &--row5 {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(1, 1fr);
@@ -34,20 +50,24 @@
   }
 
   @media (--tablet) {
-    &--row {
+    &--row1 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &--row2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &--row3 {
       grid-template-columns: repeat(3, 1fr);
+    }
 
-      &:first-child {
-        grid-template-columns: repeat(3, 1fr);
-      }
+    &--row4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
 
-      &:last-child {
-        grid-template-columns: repeat(1, 1fr);
-      }
-
-      #bit4id {
-        grid-column-start: 4;
-      }
+    &--row5 {
+      grid-template-columns: repeat(5, 1fr);
     }
   }
 }

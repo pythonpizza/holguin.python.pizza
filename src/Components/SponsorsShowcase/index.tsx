@@ -3,8 +3,10 @@ import Sponsor from "@/Types/Sponsor";
 
 import "./index.css";
 
+const ROW_SIZE = 4;
+
 export interface SponsorsShowcaseProps {
-  sponsors: Sponsor[][];
+  sponsors: Sponsor[];
 }
 
 export default class SponsorsShowcase extends React.Component<
@@ -12,13 +14,19 @@ export default class SponsorsShowcase extends React.Component<
   {}
 > {
   render() {
-    const sponsors = this.props.sponsors;
+    const chunks: Sponsor[][] = [];
+    let sponsors: Sponsor[] = [...this.props.sponsors];
+
+    while (sponsors.length) {
+      chunks.push(sponsors.slice(0, ROW_SIZE));
+      sponsors = sponsors.slice(ROW_SIZE + 1);
+    }
 
     return (
       <div className="sponsors-showcase">
-        {sponsors.map((row, i) => {
+        {chunks.map((row, i) => {
           return (
-            <div key={i} className="sponsors-showcase--row">
+            <div key={i} className={`sponsors-showcase--row${row.length}`}>
               {row.map((sponsor) => (
                 <a
                   className="sponsors-showcase--sponsor"
