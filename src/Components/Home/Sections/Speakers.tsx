@@ -57,7 +57,16 @@ export default class Speakers extends React.Component {
           <br />
           <p>
             Si tienes dudas o preguntas, puedes contactarnos en{" "}
-            <a href="mailto:holguin@python.pizza">holguin@python.pizza</a>.
+            <a href="mailto:holguin@python.pizza">holguin@python.pizza</a> o
+            sumarte a nuestro{" "}
+            <a
+              href="https://t.me/pythonpizzaholguin/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              grupo de Telegram
+            </a>
+            .
           </p>
         </Container>
       </section>
