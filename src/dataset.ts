@@ -6,13 +6,13 @@ export const SPEAKERS: Speaker[] = [
   {
     name: "Lorena Mesa",
     photo: require("../assets/speakers/loooorenanicole.jpg"),
-    job: "Presidenta PSF",
+    job: ["Presidenta de la PSF", " Ingeniera de datos en GitHub"],
     social: "https://lorenamesa.com/",
   },
   {
     name: "Carlos Parra",
     photo: require("../assets/speakers/carlosparraz.jpg"),
-    job: "Presidente UIC Holguín",
+    job: ["Presidente de la UIC en Holguín", "Miembro de TDF"],
     social: "https://libreoffice.cubava.cu/",
   },
 ];
