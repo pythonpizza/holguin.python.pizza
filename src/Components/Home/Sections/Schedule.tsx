@@ -13,9 +13,9 @@ export default class Schedule extends React.Component {
             <h1>Programa</h1>
           </Container>
           <ul>
-            {SCHEDULE.map((schedule) => (
+            {SCHEDULE.map((schedule, i) => (
               <ScheduleItem
-                key={schedule.order}
+                key={i}
                 schedule={schedule}
                 speaker={
                   typeof schedule.speaker !== "undefined"

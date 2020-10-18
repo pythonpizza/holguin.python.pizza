@@ -15,7 +15,7 @@ export default class ScheduleItem extends React.Component<
 > {
   state = {
     isLoaded: false,
-    isError: false
+    isError: false,
   };
 
   isTalk() {
@@ -54,12 +54,12 @@ export default class ScheduleItem extends React.Component<
       "schedule-item--small": !isTalk,
       "schedule-item--other": schedule.type === Types.OTHER,
       "schedule-item--break": schedule.type === Types.BREAK,
-      "schedule-item--lunch": schedule.type === Types.LUNCH
+      "schedule-item--lunch": schedule.type === Types.LUNCH,
     });
 
     const imageClasses = classnames("schedule-item--image", {
       "schedule-item--image--loaded": isLoaded,
-      "schedule-item--image--error": isError
+      "schedule-item--image--error": isError,
     });
 
     const SpeakerNameTag = isTalk && speaker!.social ? "a" : "p";

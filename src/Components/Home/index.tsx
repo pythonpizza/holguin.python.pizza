@@ -18,12 +18,11 @@ export default class Home extends React.Component {
         <Hero />
         <About />
         <Speakers />
-        <Videos />
         {/* <Schedule /> */}
+        <Videos />
         <Coc />
         <Sponsors />
       </div>
     );
   }
 }
-// <Schedule />

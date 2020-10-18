@@ -3,7 +3,7 @@ import * as React from "react";
 import Container, { Sizes } from "@/Components/Container";
 import Grid from "@/Components/Grid";
 import SpeakerCard from "@/Components/SpeakerCard";
-import { SPEAKERS } from "@/dataset";
+import { KEYNOTE_SPEAKERS, SPEAKERS } from "@/dataset";
 import Speaker from "@/Types/Speaker";
 
 export default class Speakers extends React.Component {
@@ -19,7 +19,7 @@ export default class Speakers extends React.Component {
         </Container>
         <Container size={Sizes.small}>
           <Grid>
-            {this.shuffleArray(SPEAKERS).map((speaker, i) => (
+            {this.shuffleArray(KEYNOTE_SPEAKERS).map((speaker, i) => (
               <SpeakerCard key={i} speaker={speaker} />
             ))}
           </Grid>

@@ -2,7 +2,7 @@ import Speaker from "@/Types/Speaker";
 import Sponsor from "@/Types/Sponsor";
 import Schedule, { Types } from "@/Types/Schedule";
 
-export const SPEAKERS: Speaker[] = [
+export const KEYNOTE_SPEAKERS: Speaker[] = [
   {
     name: "Lorena Mesa",
     photo: require("../assets/speakers/loooorenanicole.jpg"),
@@ -16,6 +16,10 @@ export const SPEAKERS: Speaker[] = [
     social: "https://libreoffice.cubava.cu/",
   },
 ];
+
+export const REGULAR_SPEAKERS: Speaker[] = [];
+
+export const SPEAKERS: Speaker[] = [...KEYNOTE_SPEAKERS, ...REGULAR_SPEAKERS];
 
 export const MAIN_SPONSORS: Sponsor[] = [
   {
@@ -66,29 +70,25 @@ export const SPONSORS: Sponsor[] = [
 ];
 
 export const SCHEDULE: Schedule[] = [
-  // {
-  //   order: 0,
-  //   time: "10:00",
-  //   title: "Welcome",
-  //   type: Types.OTHER
-  // },
-  // {
-  //   order: 1,
-  //   time: "10:45",
-  //   title: "TBA",
-  //   type: Types.TALK,
-  //   speaker: 0
-  // },
-  // {
-  //   order: 2,
-  //   time: "12:15",
-  //   title: "Break",
-  //   type: Types.BREAK
-  // },
-  // {
-  //   order: 3,
-  //   time: "14:00",
-  //   title: "Pizza!",
-  //   type: Types.LUNCH
-  // }
+  {
+    time: "10:00",
+    title: "Bienvenida al Python Pizza Holguín 2020",
+    type: Types.OTHER,
+  },
+  {
+    time: "10:05",
+    title: "TBA",
+    type: Types.TALK,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Carlos Parra"),
+  },
+  {
+    time: "12:15",
+    title: "Break",
+    type: Types.BREAK,
+  },
+  {
+    time: "14:00",
+    title: "Pizza!",
+    type: Types.LUNCH,
+  },
 ];
