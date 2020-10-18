@@ -55,6 +55,18 @@ export default class About extends React.Component {
               Python Pizza Hamburgo
             </a>
           </p>
+          <br />
+          <p>
+            Para estar al tanto de las últimas noticias de Python Pizza,{" "}
+            <a
+              href="https://twitter.com/pythonpizzaconf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              síguenos en Twitter
+            </a>
+            .
+          </p>
         </Container>
       </section>
     );
