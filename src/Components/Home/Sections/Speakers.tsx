@@ -27,20 +27,9 @@ export default class Speakers extends React.Component {
         <Container size={Sizes.small}>
           <h1>Charlas</h1>
           <p>
-            ¡El{" "}
-            <a
-              href="https://forms.gle/wbKkpmf9nibnNQZy6"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Call for Proposals
-            </a>{" "}
-            ya está abierto! Tienes hasta el{" "}
-            <b>domingo 18 de octubre de 2020 a las 11:59 P.M.</b> para presentar
-            tu propuesta de charla. Puedes presentar más de una propuesta, pero
-            recuerda que cada charla solo puede durar <b>10 minutos</b>. Si
-            nunca has presentado en un evento antes, mejor. ¡Esta es tu
-            oportunidad!
+            El Call for Proposals cerró el domingo 18 de octubre de 2020 a las
+            11:59 P.M. Todos los que presentaron alguna propuesta de charla
+            serán contactados por el equipo de programa antes del 24 de octubre.
           </p>
           <br />
           <p>
