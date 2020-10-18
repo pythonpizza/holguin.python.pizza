@@ -66,11 +66,11 @@ export default class Header extends React.Component {
             </li>
             <li>
               <a
-                href="https://forms.gle/wbKkpmf9nibnNQZy6"
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick={this.onNavClick}
+                href="#sponsors"
+                data-destination="sponsors"
               >
-                Call for Proposals
+                Colaboradores
               </a>
             </li>
           </ul>
