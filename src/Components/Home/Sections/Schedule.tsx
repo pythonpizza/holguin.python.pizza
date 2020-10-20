@@ -2,10 +2,18 @@ import * as React from "react";
 
 import Container, { Sizes } from "@/Components/Container";
 import ScheduleItem from "@/Components/ScheduleItem";
-import { SPEAKERS, SCHEDULE } from "@/dataset";
+import { DAY_START, SPEAKERS, SCHEDULE } from "@/dataset";
 
 export default class Schedule extends React.Component {
   render() {
+    const scheduleWithTimes = [...SCHEDULE];
+    scheduleWithTimes.forEach((item, i) => {
+      item.start = !i
+        ? DAY_START
+        : (scheduleWithTimes[i - 1].start || 0) +
+          scheduleWithTimes[i - 1].duration;
+    });
+
     return (
       <section id="schedule" className="schedule">
         <Container size={Sizes.large}>
@@ -13,7 +21,7 @@ export default class Schedule extends React.Component {
             <h1>Programa</h1>
           </Container>
           <ul>
-            {SCHEDULE.map((schedule, i) => (
+            {scheduleWithTimes.map((schedule, i) => (
               <ScheduleItem
                 key={i}
                 schedule={schedule}

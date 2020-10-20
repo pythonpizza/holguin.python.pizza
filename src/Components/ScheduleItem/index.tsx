@@ -4,6 +4,12 @@ import "./index.css";
 import Speaker from "@/Types/Speaker";
 import Schedule, { Types } from "@/Types/Schedule";
 
+function makeTime(value: number) {
+  const hours: number = Math.trunc(value / 60);
+  const minutes: number = value % 60;
+  return `${hours}:${minutes.toString().padStart(2, "0")}`;
+}
+
 export interface ScheduleItemProps {
   schedule: Schedule;
   speaker: Speaker | null;
@@ -18,14 +24,21 @@ export default class ScheduleItem extends React.Component<
     isError: false,
   };
 
-  isTalk() {
-    return this.props.schedule.type === Types.TALK;
+  isTalkOrKeynote() {
+    return (
+      this.props.schedule.type === Types.TALK ||
+      this.props.schedule.type === Types.KEYNOTE
+    );
+  }
+
+  isKeynote() {
+    return this.props.schedule.type === Types.KEYNOTE;
   }
 
   componentDidMount() {
     const { speaker } = this.props;
 
-    if (this.isTalk()) {
+    if (this.isTalkOrKeynote()) {
       const img = new Image();
 
       img.onload = () => {
@@ -46,12 +59,11 @@ export default class ScheduleItem extends React.Component<
     const { speaker, schedule } = this.props;
     const { isLoaded, isError } = this.state;
 
-    const isTalk = this.isTalk();
-
-    console.log("speaker", speaker, "schedule", schedule, "isTalk", isTalk);
+    const isTalkOrKeynote = this.isTalkOrKeynote();
+    const isKeynote = this.isKeynote();
 
     const scheduleItemClasses = classnames("schedule-item", {
-      "schedule-item--small": !isTalk,
+      "schedule-item--small": !isTalkOrKeynote,
       "schedule-item--other": schedule.type === Types.OTHER,
       "schedule-item--break": schedule.type === Types.BREAK,
       "schedule-item--lunch": schedule.type === Types.LUNCH,
@@ -62,19 +74,19 @@ export default class ScheduleItem extends React.Component<
       "schedule-item--image--error": isError,
     });
 
-    const SpeakerNameTag = isTalk && speaker!.social ? "a" : "p";
+    const SpeakerNameTag = isTalkOrKeynote && speaker!.social ? "a" : "p";
 
     return (
       <li className={scheduleItemClasses}>
-        {isTalk && (
+        {isTalkOrKeynote && (
           <div
             className={imageClasses}
             style={{ backgroundImage: `url(${speaker!.photo})` }}
           />
         )}
         <div className="schedule-item--info">
-          <h2>{schedule.title}</h2>
-          {isTalk && (
+          <h2 className={isKeynote ? "keynote" : ""}>{schedule.title}</h2>
+          {isTalkOrKeynote && (
             <SpeakerNameTag
               target="_blank"
               rel="noopener noreferrer"
@@ -83,7 +95,9 @@ export default class ScheduleItem extends React.Component<
               {speaker!.name}
             </SpeakerNameTag>
           )}
-          <span className="schedule-item--time">{schedule.time}</span>
+          <span className="schedule-item--time">
+            {makeTime(schedule.start || 0)}
+          </span>
         </div>
       </li>
     );

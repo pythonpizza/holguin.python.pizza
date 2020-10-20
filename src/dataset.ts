@@ -10,14 +10,41 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
     social: "https://lorenamesa.com/",
   },
   {
-    name: "Carlos Parra",
-    photo: require("../assets/speakers/carlosparraz.jpg"),
-    job: ["Presidente de la UIC en Holguín", "Miembro de TDF"],
-    social: "https://libreoffice.cubava.cu/",
+    name: "Raul Alderete",
+    photo: require("../assets/speakers/xc0d3.jpg"),
+    job: ["CS Academy"],
+    social: "https://github.com/xcod3",
+  },
+  {
+    name: "Alejandro Piad-Morffis",
+    photo: require("../assets/speakers/alejandropiad.jpg"),
+    job: ["MatCom", "Universidad de La Habana"],
+    social: "https://apiad.net/",
   },
 ];
 
-export const REGULAR_SPEAKERS: Speaker[] = [];
+export const REGULAR_SPEAKERS: Speaker[] = [
+  { name: "Andrew Kim", photo: "PENDING" },
+  { name: "Andy García Díaz", photo: "PENDING" },
+  { name: "Antonio Peña Batista", photo: "PENDING" },
+  { name: "Carlos Parra Zaldívar", photo: "PENDING" },
+  { name: "Cristián Maureira-Fredes", photo: "PENDING" },
+  { name: "Fernando Masanori", photo: "PENDING" },
+  { name: "Francisco Perdigon Romero", photo: "PENDING" },
+  { name: "Gabriel A. López López", photo: "PENDING" },
+  { name: "Gabriel Rodríguez Urquiza", photo: "PENDING" },
+  { name: "Hian Cañizares", photo: "PENDING" },
+  { name: "Javier Alejandro Oramas López ", photo: "PENDING" },
+  { name: "Leodanis Pozo Ramos", photo: "PENDING" },
+  { name: "Lorenzo Luis Peña Marrero", photo: "PENDING" },
+  { name: "Mauricio Baeza", photo: "PENDING" },
+  { name: "Miroslav Šedivý", photo: "PENDING" },
+  { name: "Pablo Mestre Drake", photo: "PENDING" },
+  { name: "Pavel Milanes Costa", photo: "PENDING" },
+  { name: "Pedro Almirall", photo: "PENDING" },
+  { name: "Russell Keith-Magee", photo: "PENDING" },
+  { name: "Suilan Estévez Velarde", photo: "PENDING" },
+];
 
 export const SPEAKERS: Speaker[] = [...KEYNOTE_SPEAKERS, ...REGULAR_SPEAKERS];
 
@@ -69,26 +96,174 @@ export const SPONSORS: Sponsor[] = [
   },
 ];
 
+export const DAY_START = 9 * 60; // 9am
+
 export const SCHEDULE: Schedule[] = [
   {
-    time: "10:00",
     title: "Bienvenida al Python Pizza Holguín 2020",
+    duration: 6,
     type: Types.OTHER,
   },
   {
-    time: "10:05",
-    title: "TBA",
-    type: Types.TALK,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Carlos Parra"),
+    title: "¿Por qué Python?",
+    duration: 30,
+    type: Types.KEYNOTE,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Raul Alderete"),
   },
   {
-    time: "12:15",
-    title: "Break",
+    title: 'Más allá del "Hola Mundo"',
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Cristián Maureira-Fredes"),
+  },
+  {
+    title: "Viaje al mundo profundo del desarrollo web",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Andrew Kim"),
+  },
+  {
+    title: "Django y React: ¿ateje, teipe o cola-loca?",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Antonio Peña Batista"),
+  },
+  {
+    title: "Extendiendo LibreOffice con Python",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Mauricio Baeza"),
+  },
+  {
+    title:
+      "Manteniendo paquetes Python en Debian GNU/Linux: Mi experiencia personal",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Pablo Mestre Drake"),
+  },
+  {
+    title: "Un día tiene solo 24±1 horas",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Miroslav Šedivý"),
+  },
+  {
+    title: "Receso",
+    duration: 12,
     type: Types.BREAK,
   },
   {
-    time: "14:00",
+    title: "Python y la Inteligencia Artificial",
+    duration: 30,
+    type: Types.KEYNOTE,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Alejandro Piad-Morffis"),
+  },
+  {
+    title: "Video-diet, poniendo tu almacenamiento a régimen",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex(
+      (x) => x.name == "Javier Alejandro Oramas López "
+    ),
+  },
+  {
+    title: "Python Emergency Remote Teaching",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Fernando Masanori"),
+  },
+  {
+    title: "Mail2InfluxDB: mejorando el monitoreo del correo con Python",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Pavel Milanes Costa"),
+  },
+  {
+    title: "Democratizando el Machine Learning con AutoGOAL",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Suilan Estévez Velarde"),
+  },
+  {
+    title: "Python y la Meteorología en Cuba",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Gabriel Rodríguez Urquiza"),
+  },
+  {
     title: "Pizza!",
+    duration: 30,
     type: Types.LUNCH,
+  },
+  {
+    title: "The Document Foundation",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Carlos Parra Zaldívar"),
+  },
+  {
+    title:
+      "El rol de Python en el desarrollo de la Inteligencia Artificial y la Computación Científica",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Francisco Perdigon Romero"),
+  },
+  {
+    title: "El pony y la barbacoa",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Lorenzo Luis Peña Marrero"),
+  },
+  {
+    title: "Cómo Crear Contenidos Python: Tips y Buenas Prácticas",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Leodanis Pozo Ramos"),
+  },
+  {
+    title: "Django ORM y el misterio de las agregaciones múltiples",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Pedro Almirall"),
+  },
+  {
+    title: "Kincapptory",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Gabriel A. López López"),
+  },
+  {
+    title: "Creando Telegram Bots para Ayudar en tareas de Clasificación de ML",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Hian Cañizares"),
+  },
+  {
+    title: "Receso",
+    duration: 12,
+    type: Types.BREAK,
+  },
+  {
+    title: "Python all the things!",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Russell Keith-Magee"),
+  },
+  {
+    title: "Proyecto Delta: De lo cotidiano y lo insólito, usando Python",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Andy García Díaz"),
+  },
+  {
+    title: "La Python Software Foundation y tú",
+    duration: 30,
+    type: Types.KEYNOTE,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Lorena Mesa"),
+  },
+  {
+    title: "Despedida",
+    duration: 6,
+    type: Types.OTHER,
   },
 ];
