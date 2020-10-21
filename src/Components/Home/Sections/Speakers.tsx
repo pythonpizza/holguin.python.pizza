@@ -12,7 +12,7 @@ export default class Speakers extends React.Component {
         <Container size={Sizes.small}>
           <h1>Ponentes Principales</h1>
         </Container>
-        <Container size={Sizes.medium}>
+        <Container size={Sizes.small}>
           <Grid>
             {KEYNOTE_SPEAKERS.map((speaker, i) => (
               <SpeakerCard key={i} speaker={speaker} />

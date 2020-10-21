@@ -101,10 +101,18 @@
     h2 {
       margin-bottom: 0.4em;
       font-size: 1.8rem;
+      cursor: default;
 
       &.keynote {
         font-size: 2rem;
         color: var(--primary-color);
+
+        &:before {
+          content: "⭐";
+          position: absolute;
+          margin-left: -35px;
+          animation: spin 10s infinite linear;
+        }
       }
 
       @media (--tablet) {
@@ -219,6 +227,15 @@
         color: var(--white);
       }
     }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 

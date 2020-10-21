@@ -11,5 +11,6 @@ export default interface Schedule {
   type: Types;
   duration: number;
   speaker?: number;
-  start?: number; // buffer
+  start?: number; // cache
+  summary?: string;
 }

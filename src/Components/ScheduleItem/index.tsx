@@ -85,7 +85,9 @@ export default class ScheduleItem extends React.Component<
           />
         )}
         <div className="schedule-item--info">
-          <h2 className={isKeynote ? "keynote" : ""}>{schedule.title}</h2>
+          <h2 className={isKeynote ? "keynote" : ""}>
+            <span title={schedule.summary}>{schedule.title}</span>
+          </h2>
           {isTalkOrKeynote && (
             <SpeakerNameTag
               target="_blank"

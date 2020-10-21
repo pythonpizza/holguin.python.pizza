@@ -16,10 +16,10 @@ export default class Schedule extends React.Component {
 
     return (
       <section id="schedule" className="schedule">
+        <Container size={Sizes.small}>
+          <h1>Programa</h1>
+        </Container>
         <Container size={Sizes.large}>
-          <Container size={Sizes.small}>
-            <h1>Programa</h1>
-          </Container>
           <ul>
             {scheduleWithTimes.map((schedule, i) => (
               <ScheduleItem
