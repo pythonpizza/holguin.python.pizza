@@ -30,7 +30,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-color: var(--primary-color);
-    box-shadow: 2px 8px 32px -8px var(--primary-color);
+    box-shadow: 0 0 20px var(--primary-color);
     position: absolute;
     top: 0;
     left: 50%;

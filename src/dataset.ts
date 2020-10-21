@@ -26,7 +26,10 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
 export const REGULAR_SPEAKERS: Speaker[] = [
   { name: "Andrew Kim", photo: "PENDING" },
   { name: "Andy García Díaz", photo: "PENDING" },
-  { name: "Antonio Peña Batista", photo: "PENDING" },
+  {
+    name: "Antonio Peña Batista",
+    photo: require("../assets/speakers/apenab1995.jpg"),
+  },
   { name: "Carlos Parra Zaldívar", photo: "PENDING" },
   { name: "Cristián Maureira-Fredes", photo: "PENDING" },
   { name: "Fernando Masanori", photo: "PENDING" },
@@ -34,15 +37,27 @@ export const REGULAR_SPEAKERS: Speaker[] = [
   { name: "Gabriel A. López López", photo: "PENDING" },
   { name: "Gabriel Rodríguez Urquiza", photo: "PENDING" },
   { name: "Hian Cañizares", photo: "PENDING" },
-  { name: "Javier Alejandro Oramas López ", photo: "PENDING" },
+  {
+    name: "Javier Alejandro Oramas López ",
+    photo: require("../assets/speakers/javi_oramas.jpg"),
+  },
   { name: "Leodanis Pozo Ramos", photo: "PENDING" },
-  { name: "Lorenzo Luis Peña Marrero", photo: "PENDING" },
+  {
+    name: "Lorenzo Luis Peña Marrero",
+    photo: require("../assets/speakers/lorinkoz.jpg"),
+  },
   { name: "Mauricio Baeza", photo: "PENDING" },
   { name: "Miroslav Šedivý", photo: "PENDING" },
   { name: "Pablo Mestre Drake", photo: "PENDING" },
-  { name: "Pavel Milanes Costa", photo: "PENDING" },
+  {
+    name: "Pavel Milanes Costa",
+    photo: require("../assets/speakers/co7wt.jpg"),
+  },
   { name: "Pedro Almirall", photo: "PENDING" },
-  { name: "Russell Keith-Magee", photo: "PENDING" },
+  {
+    name: "Russell Keith-Magee",
+    photo: require("../assets/speakers/freakboy3742.jpg"),
+  },
   { name: "Suilan Estévez Velarde", photo: "PENDING" },
 ];
 

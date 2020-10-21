@@ -20,6 +20,6 @@
   --grid-columns: 1fr;
 
   @media (--tablet) {
-    --grid-columns: 1fr 1fr;
+    --grid-columns: 1fr 1fr 1fr;
   }
 }
