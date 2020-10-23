@@ -10,12 +10,6 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
     social: "https://lorenamesa.com",
   },
   {
-    name: "Carlos Parra Zaldívar",
-    photo: require("../assets/speakers/carlosparraz.jpg"),
-    job: ["Presidente UIC Holguín", "Miembro de TDF"],
-    social: "https://libreoffice.cubava.cu",
-  },
-  {
     name: "Raul Alderete",
     photo: require("../assets/speakers/xc0d3.jpg"),
     job: ["CS Academy"],
@@ -30,7 +24,17 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
 ];
 
 export const REGULAR_SPEAKERS: Speaker[] = [
-  { name: "Andrew Kim", photo: "PENDING" },
+  {
+    name: "Carlos Parra Zaldívar",
+    photo: require("../assets/speakers/carlosparraz.jpg"),
+    job: ["Presidente UIC Holguín", "Miembro de TDF"],
+    social: "https://libreoffice.cubava.cu",
+  },
+  {
+    name: "Andrew Kim",
+    photo: require("../assets/speakers/dearandrewkim.jpg"),
+    social: "https://dearandrewkim.com",
+  },
   {
     name: "Andy García Díaz",
     photo: require("../assets/speakers/dancuba96.jpg"),
@@ -46,10 +50,22 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     photo: require("../assets/speakers/cmaureir.jpg"),
     social: "https://maureira.xyz",
   },
-  { name: "Fernando Masanori", photo: "PENDING" },
+  {
+    name: "Fernando Masanori",
+    photo: require("../assets/speakers/fmasanori.jpg"),
+    social: "https://twitter.com/fmasanori",
+  },
   { name: "Francisco Perdigon Romero", photo: "PENDING" },
-  { name: "Gabriel A. López López", photo: "PENDING" },
-  { name: "Gabriel Rodríguez Urquiza", photo: "PENDING" },
+  {
+    name: "Gabriel A. López López",
+    photo: require("../assets/speakers/glpzzz.jpg"),
+    social: "https://twitter.com/glpzzz",
+  },
+  {
+    name: "Gabriel Rodríguez Urquiza",
+    photo: require("../assets/speakers/gabriel_ru98.jpg"),
+    social: "https://twitter.com/gabriel_ru98",
+  },
   {
     name: "Hian Cañizares",
     photo: require("../assets/speakers/hian_cd.jpg"),
@@ -76,7 +92,11 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     photo: require("../assets/speakers/eumiro.jpg"),
     social: "https://twitter.com/eumiro",
   },
-  { name: "Pablo Mestre Drake", photo: "PENDING" },
+  {
+    name: "Pablo Mestre Drake",
+    photo: require("../assets/speakers/elmor3no_.jpg"),
+    social: "https://twitter.com/elmor3no_",
+  },
   {
     name: "Pavel Milanes Costa",
     photo: require("../assets/speakers/co7wt.jpg"),
@@ -92,7 +112,11 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     photo: require("../assets/speakers/freakboy3742.jpg"),
     social: "https://twitter.com/freakboy3742",
   },
-  { name: "Suilan Estévez Velarde", photo: "PENDING" },
+  {
+    name: "Suilan Estévez Velarde",
+    photo: require("../assets/speakers/suilanestevez.jpg"),
+    social: "https://twitter.com/suilanestevez",
+  },
 ];
 
 export const SPEAKERS: Speaker[] = [...KEYNOTE_SPEAKERS, ...REGULAR_SPEAKERS];
@@ -149,7 +173,7 @@ export const DAY_START = 9 * 60; // 9am
 
 export const SCHEDULE: Schedule[] = [
   {
-    title: "Bienvenida al Python Pizza Holguín 2020",
+    title: "Bienvenida 🐍🍕",
     duration: 6,
     type: Types.OTHER,
   },
@@ -228,7 +252,7 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Miroslav Šedivý"),
   },
   {
-    title: "Receso",
+    title: "Receso ⛱️",
     duration: 12,
     type: Types.BREAK,
   },
@@ -296,7 +320,7 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Gabriel Rodríguez Urquiza"),
   },
   {
-    title: "Pizza!",
+    title: "Pizza! 🍕🍕",
     duration: 30,
     type: Types.LUNCH,
   },
@@ -307,13 +331,18 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Carlos Parra Zaldívar"),
   },
   {
-    title:
-      "El rol de Python en el desarrollo de la Inteligencia Artificial y " +
-      "la Computación Científica",
-    type: Types.TALK,
+    title: "PENDING",
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Francisco Perdigon Romero"),
+    type: Types.OTHER,
   },
+  // {
+  //   title:
+  //     "El rol de Python en el desarrollo de la Inteligencia Artificial y " +
+  //     "la Computación Científica",
+  //   type: Types.TALK,
+  //   duration: 12,
+  //   speaker: SPEAKERS.findIndex((x) => x.name == "Francisco Perdigon Romero"),
+  // },
   {
     title: "El pony y la barbacoa",
     summary:
@@ -377,7 +406,7 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Hian Cañizares"),
   },
   {
-    title: "Receso",
+    title: "Receso ⛱️",
     duration: 12,
     type: Types.BREAK,
   },
@@ -420,7 +449,7 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Lorena Mesa"),
   },
   {
-    title: "Despedida",
+    title: "Despedida 👋",
     duration: 6,
     type: Types.OTHER,
   },

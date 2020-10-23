@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import Container, { Sizes } from "@/Components/Container";
-import Grid from "@/Components/Grid";
+import Flex from "@/Components/Flex";
 import SpeakerCard from "@/Components/SpeakerCard";
 import { KEYNOTE_SPEAKERS } from "@/dataset";
 
@@ -12,12 +12,12 @@ export default class Speakers extends React.Component {
         <Container size={Sizes.small}>
           <h1>Ponentes Principales</h1>
         </Container>
-        <Container size={Sizes.small}>
-          <Grid>
+        <Container size={Sizes.medium}>
+          <Flex>
             {KEYNOTE_SPEAKERS.map((speaker, i) => (
               <SpeakerCard key={i} speaker={speaker} />
             ))}
-          </Grid>
+          </Flex>
         </Container>
         <Container size={Sizes.small}>
           <h1>Charlas</h1>

@@ -68,7 +68,7 @@
       background-color: var(--iron);
       box-shadow: 2px 8px 32px -8px var(--iron);
 
-      &::before {
+      &:before {
         content: "🙃";
         font-size: 6.4rem;
       }

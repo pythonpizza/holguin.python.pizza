@@ -1,0 +1,9 @@
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5rem 0;
+
+  > * {
+    flex: 1;
+  }
+}
