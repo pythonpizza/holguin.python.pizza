@@ -15,7 +15,7 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
     job: ["Próximamente"],
   },
   {
-    name: "Raul Alderete",
+    name: "Raúl Alderete",
     photo: require("../assets/speakers/xc0d3.jpg"),
     job: ["CEO de CS Academy", "Equipo de seguridad - Parrot OS"],
     social: "https://github.com/xcod3",
@@ -205,7 +205,7 @@ export const SCHEDULE: Schedule[] = [
       "por qué.",
     duration: 30,
     type: Types.KEYNOTE,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Raul Alderete"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Raúl Alderete"),
   },
   {
     title: 'Más allá del "Hola Mundo"',
