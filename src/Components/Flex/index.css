@@ -1,9 +1,11 @@
 .flex {
-  display: flex;
-  flex-wrap: nowrap;
-  margin: 5rem 0;
+  @media (--tablet) {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5rem 0;
 
-  > * {
-    flex: 1;
+    > * {
+      flex: 1;
+    }
   }
 }
