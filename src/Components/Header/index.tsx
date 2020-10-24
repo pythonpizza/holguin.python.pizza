@@ -50,7 +50,7 @@ export default class Header extends React.Component {
                 Charlas
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 onClick={this.onNavClick}
                 href="#schedule"
@@ -58,7 +58,7 @@ export default class Header extends React.Component {
               >
                 Programa
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 onClick={this.onNavClick}
