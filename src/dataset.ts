@@ -3,11 +3,16 @@ import Sponsor from "@/Types/Sponsor";
 import Schedule, { Types } from "@/Types/Schedule";
 
 export const KEYNOTE_SPEAKERS: Speaker[] = [
+  // {
+  //   name: "Lorena Mesa",
+  //   photo: require("../assets/speakers/loooorenanicole.jpg"),
+  //   job: ["Presidenta de la PSF", " Ingeniera de datos en GitHub"],
+  //   social: "https://lorenamesa.com",
+  // },
   {
-    name: "Lorena Mesa",
-    photo: require("../assets/speakers/loooorenanicole.jpg"),
-    job: ["Presidenta de la PSF", " Ingeniera de datos en GitHub"],
-    social: "https://lorenamesa.com",
+    name: "~",
+    photo: require("../assets/speakers/unknown.jpg"),
+    job: ["Próximamente"],
   },
   {
     name: "Raul Alderete",
@@ -15,11 +20,21 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
     job: ["CEO de CS Academy", "Equipo de seguridad - Parrot OS"],
     social: "https://github.com/xcod3",
   },
+  // {
+  //   name: "~",
+  //   photo: require("../assets/speakers/unknown.jpg"),
+  //   job: ["Próximamente"],
+  // },
+  // {
+  //   name: "Alejandro Piad-Morffis",
+  //   photo: require("../assets/speakers/alejandropiad.jpg"),
+  //   job: ["MatCom", "Universidad de La Habana"],
+  //   social: "https://apiad.net",
+  // },
   {
-    name: "Alejandro Piad-Morffis",
-    photo: require("../assets/speakers/alejandropiad.jpg"),
-    job: ["MatCom", "Universidad de La Habana"],
-    social: "https://apiad.net",
+    name: "~",
+    photo: require("../assets/speakers/unknown.jpg"),
+    job: ["Próximamente"],
   },
 ];
 
