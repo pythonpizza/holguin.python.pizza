@@ -1,5 +1,6 @@
 .footer {
   background: var(--primary-color);
+  border-top: 5px solid white; /* Hack */
 
   .wave {
     transform: scale(-1);

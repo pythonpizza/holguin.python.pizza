@@ -12,7 +12,7 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
   {
     name: "Raul Alderete",
     photo: require("../assets/speakers/xc0d3.jpg"),
-    job: ["CS Academy"],
+    job: ["CEO de CS Academy", "Equipo de seguridad - Parrot OS"],
     social: "https://github.com/xcod3",
   },
   {
@@ -24,12 +24,6 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
 ];
 
 export const REGULAR_SPEAKERS: Speaker[] = [
-  {
-    name: "Carlos Parra Zaldívar",
-    photo: require("../assets/speakers/carlosparraz.jpg"),
-    job: ["Presidente UIC Holguín", "Miembro de TDF"],
-    social: "https://libreoffice.cubava.cu",
-  },
   {
     name: "Andrew Kim",
     photo: require("../assets/speakers/dearandrewkim.jpg"),
@@ -44,6 +38,11 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     name: "Antonio Peña Batista",
     photo: require("../assets/speakers/apenab1995.jpg"),
     social: "https://twitter.com/apenab1995",
+  },
+  {
+    name: "Carlos Parra Zaldívar",
+    photo: require("../assets/speakers/carlosparraz.jpg"),
+    social: "https://libreoffice.cubava.cu",
   },
   {
     name: "Cristián Maureira-Fredes",
@@ -86,7 +85,11 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     photo: require("../assets/speakers/lorinkoz.jpg"),
     social: "https://twitter.com/lorinkoz",
   },
-  { name: "Mauricio Baeza", photo: "PENDING" },
+  {
+    name: "Mauricio Baeza",
+    photo: require("../assets/speakers/elmau.jpg"),
+    // social: "https://twitter.com/elmau",
+  },
   {
     name: "Miroslav Šedivý",
     photo: require("../assets/speakers/eumiro.jpg"),
@@ -331,18 +334,11 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Carlos Parra Zaldívar"),
   },
   {
-    title: "PENDING",
+    title: "---pendiente---",
+    type: Types.TALK,
     duration: 12,
-    type: Types.OTHER,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Francisco Perdigon Romero"),
   },
-  // {
-  //   title:
-  //     "El rol de Python en el desarrollo de la Inteligencia Artificial y " +
-  //     "la Computación Científica",
-  //   type: Types.TALK,
-  //   duration: 12,
-  //   speaker: SPEAKERS.findIndex((x) => x.name == "Francisco Perdigon Romero"),
-  // },
   {
     title: "El pony y la barbacoa",
     summary:
@@ -406,11 +402,6 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Hian Cañizares"),
   },
   {
-    title: "Receso ⛱️",
-    duration: 12,
-    type: Types.BREAK,
-  },
-  {
     title: "Python all the things!",
     summary:
       "Have you ever wanted to write a GUI application you can run on your " +
@@ -441,6 +432,11 @@ export const SCHEDULE: Schedule[] = [
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Andy García Díaz"),
+  },
+  {
+    title: "Receso ⛱️",
+    duration: 12,
+    type: Types.BREAK,
   },
   {
     title: "La Python Software Foundation y tú",
