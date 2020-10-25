@@ -69,7 +69,11 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     photo: require("../assets/speakers/fmasanori.jpg"),
     social: "https://twitter.com/fmasanori",
   },
-  { name: "Francisco Perdigon Romero", photo: "PENDING" },
+  {
+    name: "Francisco Perdigon Romero",
+    photo: require("../assets/speakers/fperdigon88.jpg"),
+    // social: "",
+  },
   {
     name: "Gabriel A. López López",
     photo: require("../assets/speakers/glpzzz.jpg"),
@@ -103,7 +107,7 @@ export const REGULAR_SPEAKERS: Speaker[] = [
   {
     name: "Mauricio Baeza",
     photo: require("../assets/speakers/elmau.jpg"),
-    // social: "https://twitter.com/elmau",
+    // social: "",
   },
   {
     name: "Miroslav Šedivý",
@@ -349,7 +353,12 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Carlos Parra Zaldívar"),
   },
   {
-    title: "---pendiente---",
+    title: "Procesamiento digital de imágenes usando OpenCV y Python",
+    summary:
+      "En esta charla hablaremos de la librería OpenCV para el procesamiento " +
+      "digital de imágenes (PDI). Varios ejemplos de cómo utilizar las " +
+      "técnicas de PDI serán mostrados y daremos un vistazo rápido vistazo " +
+      "al código.",
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Francisco Perdigon Romero"),
