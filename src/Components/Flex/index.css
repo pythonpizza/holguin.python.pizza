@@ -2,7 +2,7 @@
   @media (--tablet) {
     display: flex;
     flex-wrap: nowrap;
-    margin: 5rem 0;
+    margin-top: 5rem;
 
     > * {
       flex: 1;

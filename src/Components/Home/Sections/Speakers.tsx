@@ -23,20 +23,20 @@ export default class Speakers extends React.Component {
           <h1>Charlas</h1>
           <p>
             El Call for Proposals cerró el domingo 18 de octubre de 2020 a las
-            11:59 P.M. Todos los que presentaron alguna propuesta de charla
-            serán contactados por el equipo de programa antes del 24 de octubre.
+            11:59 P.M. El programa será publicado pronto.
           </p>
           <br />
           <p>
-            Las charlas seleccionadas serán <b>pre-grabadas</b> y puestas a
-            disposición de todos los participantes. Tendremos más detalles sobre
-            esto próximamente.
-          </p>
-          <br />
-          <p>
-            Si la situación con la COVID-19 lo permite, planeamos hacer el
-            Python Pizza presencial en Holguín el{" "}
-            <b>sábado 14 de noviembre de 2020</b>.
+            Todas las charlas serán transmitidas por{" "}
+            <a
+              href="https://www.youtube.com/channel/UCs3DNJSzJJ5pW0tIKQbOPAA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              nuestro canal de YouTube
+            </a>{" "}
+            el 14 de noviembre de 2020, y unos días más tarde estarán
+            disponibles como videos independientes en YouTube y Picta.
           </p>
         </Container>
       </section>

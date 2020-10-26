@@ -28,13 +28,13 @@ export default class Speakers extends React.Component {
         </Container>
         <Container size={Sizes.small}>
           <p>
-            Suscríbete a{" "}
+            Suscríbete al{" "}
             <a
               href="https://www.youtube.com/channel/UCs3DNJSzJJ5pW0tIKQbOPAA"
               target="_blank"
               rel="noopener noreferrer"
             >
-              nuestro canal de YouTube
+              canal de YouTube
             </a>{" "}
             para que no te pierdas ningún video de la previa y puedas disfrutar
             de todas las charlas del evento.
