@@ -21,11 +21,6 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
     social: "https://github.com/xcod3",
   },
   // {
-  //   name: "~",
-  //   photo: require("../assets/speakers/unknown.jpg"),
-  //   job: ["Próximamente"],
-  // },
-  // {
   //   name: "Alejandro Piad-Morffis",
   //   photo: require("../assets/speakers/alejandropiad.jpg"),
   //   job: ["MatCom", "Universidad de La Habana"],
@@ -244,15 +239,6 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Antonio Peña Batista"),
   },
   {
-    title: "Extendiendo LibreOffice con Python",
-    summary:
-      "Extender las posibilidades de LibreOffice con Python, es sencillo, " +
-      "fácil y divertido.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Mauricio Baeza"),
-  },
-  {
     title:
       "Manteniendo paquetes Python en Debian GNU/Linux: Mi experiencia personal",
     summary:
@@ -263,6 +249,17 @@ export const SCHEDULE: Schedule[] = [
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Pablo Mestre Drake"),
+  },
+  {
+    title: "Procesamiento digital de imágenes usando OpenCV y Python",
+    summary:
+      "En esta charla hablaremos de la librería OpenCV para el procesamiento " +
+      "digital de imágenes (PDI). Varios ejemplos de cómo utilizar las " +
+      "técnicas de PDI serán mostrados y daremos un vistazo rápido vistazo " +
+      "al código.",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Francisco Perdigon Romero"),
   },
   {
     title: "Un día tiene solo 24±1 horas",
@@ -285,16 +282,15 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Alejandro Piad-Morffis"),
   },
   {
-    title: "Video-diet, poniendo tu almacenamiento a régimen",
+    title: "Democratizando el Machine Learning con AutoGOAL",
     summary:
-      "En esta charla se hablará de video-diet, una herramienta que reduce el " +
-      "tamaño de videos y audios sin pérdida de calidad, solo cambiando el " +
-      "codec a HEVC, logrando reducciones de hasta 90%.",
+      "AutoGOAL es una biblioteca open-source para automatizar gran parte " +
+      "del proceso de Machine Learning. En esta charla veremos una " +
+      "descripción general de la herramienta, para qué sirve, y cómo puede " +
+      "facilitar el desarrollo de aplicaciones basadas en Machine Learning.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex(
-      (x) => x.name == "Javier Alejandro Oramas López "
-    ),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Suilan Estévez Velarde"),
   },
   {
     title: "Python Emergency Remote Teaching",
@@ -320,15 +316,16 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Pavel Milanes Costa"),
   },
   {
-    title: "Democratizando el Machine Learning con AutoGOAL",
+    title: "Video-diet, poniendo tu almacenamiento a régimen",
     summary:
-      "AutoGOAL es una biblioteca open-source para automatizar gran parte " +
-      "del proceso de Machine Learning. En esta charla veremos una " +
-      "descripción general de la herramienta, para qué sirve, y cómo puede " +
-      "facilitar el desarrollo de aplicaciones basadas en Machine Learning.",
+      "En esta charla se hablará de video-diet, una herramienta que reduce el " +
+      "tamaño de videos y audios sin pérdida de calidad, solo cambiando el " +
+      "codec a HEVC, logrando reducciones de hasta 90%.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Suilan Estévez Velarde"),
+    speaker: SPEAKERS.findIndex(
+      (x) => x.name == "Javier Alejandro Oramas López "
+    ),
   },
   {
     title: "Python y la Meteorología en Cuba",
@@ -353,15 +350,24 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Carlos Parra Zaldívar"),
   },
   {
-    title: "Procesamiento digital de imágenes usando OpenCV y Python",
+    title: "Extendiendo LibreOffice con Python",
     summary:
-      "En esta charla hablaremos de la librería OpenCV para el procesamiento " +
-      "digital de imágenes (PDI). Varios ejemplos de cómo utilizar las " +
-      "técnicas de PDI serán mostrados y daremos un vistazo rápido vistazo " +
-      "al código.",
+      "Extender las posibilidades de LibreOffice con Python, es sencillo, " +
+      "fácil y divertido.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Francisco Perdigon Romero"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Mauricio Baeza"),
+  },
+  {
+    title: "Django ORM y el misterio de las agregaciones múltiples",
+    summary:
+      "Acompáñame a ver esta triste historia: un usuario de Django comienza " +
+      "a usar agregaciones múltiples sin haber leído cuidadosamente la " +
+      "documentación y, ¡sorpresa!, está recibiendo resultados incorrectos " +
+      "sin que haya ningún error aparente.",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Pedro Almirall"),
   },
   {
     title: "El pony y la barbacoa",
@@ -397,17 +403,6 @@ export const SCHEDULE: Schedule[] = [
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Gabriel A. López López"),
-  },
-  {
-    title: "Django ORM y el misterio de las agregaciones múltiples",
-    summary:
-      "Acompáñame a ver esta triste historia: un usuario de Django comienza " +
-      "a usar agregaciones múltiples sin haber leído cuidadosamente la " +
-      "documentación y, ¡sorpresa!, está recibiendo resultados incorrectos " +
-      "sin que haya ningún error aparente.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Pedro Almirall"),
   },
   {
     title: "Creando Telegram Bots para Ayudar en tareas de Clasificación de ML",
