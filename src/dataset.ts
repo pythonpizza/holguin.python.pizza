@@ -21,7 +21,7 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
     social: "https://github.com/xcod3",
   },
   {
-    name: "Alejandro Piad-Morffis",
+    name: "Alejandro Piad",
     photo: require("../assets/speakers/alejandropiad.jpg"),
     job: ["MatCom", "Universidad de La Habana"],
     social: "https://apiad.net",
@@ -274,7 +274,7 @@ export const SCHEDULE: Schedule[] = [
     title: "Python y la Inteligencia Artificial",
     duration: 30,
     type: Types.KEYNOTE,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Alejandro Piad-Morffis"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Alejandro Piad"),
   },
   {
     title: "Democratizando el Machine Learning con AutoGOAL",
