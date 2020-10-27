@@ -61,8 +61,8 @@ export const REGULAR_SPEAKERS: Speaker[] = [
   },
   {
     name: "Francisco Perdigon Romero",
-    photo: require("../assets/speakers/fperdigon88.jpg"),
-    // social: "",
+    photo: require("../assets/speakers/f_perdigon.jpg"),
+    social: "https://twitter.com/f_perdigon",
   },
   {
     name: "Gabriel A. López López",
