@@ -20,16 +20,11 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
     job: ["CEO de CS Academy", "Equipo de seguridad - Parrot OS"],
     social: "https://github.com/xcod3",
   },
-  // {
-  //   name: "Alejandro Piad-Morffis",
-  //   photo: require("../assets/speakers/alejandropiad.jpg"),
-  //   job: ["MatCom", "Universidad de La Habana"],
-  //   social: "https://apiad.net",
-  // },
   {
-    name: "~",
-    photo: require("../assets/speakers/unknown.jpg"),
-    job: ["Próximamente"],
+    name: "Alejandro Piad-Morffis",
+    photo: require("../assets/speakers/alejandropiad.jpg"),
+    job: ["MatCom", "Universidad de La Habana"],
+    social: "https://apiad.net",
   },
 ];
 
