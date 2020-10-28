@@ -8,7 +8,7 @@ export default class Sponsors extends React.Component {
   render() {
     return (
       <section id="sponsors">
-        <Container size={Sizes.small}>
+        <Container size={Sizes.medium}>
           <h1>Auspiciado por</h1>
           <SponsorsShowcase sponsors={MAIN_SPONSORS} />
         </Container>
