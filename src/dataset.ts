@@ -3,16 +3,11 @@ import Sponsor from "@/Types/Sponsor";
 import Schedule, { Types } from "@/Types/Schedule";
 
 export const KEYNOTE_SPEAKERS: Speaker[] = [
-  // {
-  //   name: "Lorena Mesa",
-  //   photo: require("../assets/speakers/loooorenanicole.jpg"),
-  //   job: ["Presidenta de la PSF", " Ingeniera de datos en GitHub"],
-  //   social: "https://lorenamesa.com",
-  // },
   {
-    name: "~",
-    photo: require("../assets/speakers/unknown.jpg"),
-    job: ["Próximamente"],
+    name: "Lorena Mesa",
+    photo: require("../assets/speakers/loooorenanicole.jpg"),
+    job: ["Presidenta de la PSF", " Ingeniera de datos en GitHub"],
+    social: "https://lorenamesa.com",
   },
   {
     name: "Raúl Alderete",
