@@ -22,11 +22,6 @@ export default class Speakers extends React.Component {
         <Container size={Sizes.small}>
           <h1>Charlas</h1>
           <p>
-            El Call for Proposals cerró el domingo 18 de octubre de 2020 a las
-            11:59 P.M. El programa será publicado pronto.
-          </p>
-          <br />
-          <p>
             Todas las charlas serán transmitidas por{" "}
             <a
               href="https://www.youtube.com/channel/UCs3DNJSzJJ5pW0tIKQbOPAA"

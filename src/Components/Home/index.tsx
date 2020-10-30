@@ -18,7 +18,7 @@ export default class Home extends React.Component {
         <Hero />
         <About />
         <Speakers />
-        {/* <Schedule /> */}
+        <Schedule />
         <Videos />
         <Coc />
         <Sponsors />
