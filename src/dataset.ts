@@ -186,12 +186,6 @@ export const SCHEDULE: Schedule[] = [
   },
   {
     title: "¿Por qué Python?",
-    summary:
-      "Si usted es Desarrollador de Software, Desarrollador Web, Ingeniero " +
-      "de Bases de Datos, Profesional de la Ciberseguridad, Científico de " +
-      "Datos, Ingeniero de Redes o un entusiasta más de las TIC debe " +
-      "considerar programar en Python. En esta charla de 10 minutos le diré " +
-      "por qué.",
     duration: 30,
     type: Types.KEYNOTE,
     speaker: SPEAKERS.findIndex((x) => x.name == "Raúl Alderete"),
