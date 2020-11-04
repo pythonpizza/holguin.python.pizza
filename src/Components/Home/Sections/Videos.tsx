@@ -25,6 +25,15 @@ export default class Speakers extends React.Component {
               allowFullScreen
             ></iframe>
           </Grid>
+          <Grid>
+            <iframe
+              height="250"
+              src="https://www.youtube.com/embed/blifZs8RIvo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </Grid>
         </Container>
         <Container size={Sizes.small}>
           <p>
