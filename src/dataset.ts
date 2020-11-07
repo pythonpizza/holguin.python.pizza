@@ -174,6 +174,12 @@ export const SPONSORS: Sponsor[] = [
     link: "https://www.cubantrailteam.com/",
     photo: require("../assets/sponsors/cuban-trail-team.jpg"),
   },
+  {
+    id: "uho",
+    name: "Universidad de Holguín",
+    link: "https://www.uho.edu.cu/",
+    photo: require("../assets/sponsors/uho.jpg"),
+  },
 ];
 
 export const DAY_START = 9 * 60; // 9am

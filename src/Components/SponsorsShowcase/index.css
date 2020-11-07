@@ -29,6 +29,10 @@
       width: 8rem;
     }
 
+    &#uho img {
+      width: 12rem;
+    }
+
     @media (--tablet) {
       margin: 0;
     }

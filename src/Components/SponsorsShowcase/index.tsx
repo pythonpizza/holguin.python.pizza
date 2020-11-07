@@ -3,7 +3,7 @@ import Sponsor from "@/Types/Sponsor";
 
 import "./index.css";
 
-const ROW_SIZE = 4;
+const ROW_SIZE = 5;
 
 export interface SponsorsShowcaseProps {
   sponsors: Sponsor[];
