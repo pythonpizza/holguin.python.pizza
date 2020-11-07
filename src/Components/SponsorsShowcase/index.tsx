@@ -19,7 +19,7 @@ export default class SponsorsShowcase extends React.Component<
 
     while (sponsors.length) {
       chunks.push(sponsors.slice(0, ROW_SIZE));
-      sponsors = sponsors.slice(ROW_SIZE + 1);
+      sponsors = sponsors.slice(ROW_SIZE);
     }
 
     return (

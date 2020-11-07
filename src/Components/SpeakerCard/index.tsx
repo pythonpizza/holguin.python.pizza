@@ -29,10 +29,10 @@ export default class SpeakerCard extends React.Component<SpeakerCardProps, {}> {
           </h2>
           <small>
             {speaker.job?.map((job) => (
-              <>
+              <React.Fragment key={job}>
                 {job}
                 <br />
-              </>
+              </React.Fragment>
             ))}
           </small>
         </div>
