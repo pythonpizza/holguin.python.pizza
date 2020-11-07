@@ -11,14 +11,14 @@ export default class Speakers extends React.Component {
           <h1>Videos</h1>
           <Grid>
             <iframe
-              height="250"
+              height="200"
               src="https://www.youtube.com/embed/hQvxtl_xKks"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
             <iframe
-              height="250"
+              height="200"
               src="https://www.youtube.com/embed/moGWD_eTBcs"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -27,8 +27,15 @@ export default class Speakers extends React.Component {
           </Grid>
           <Grid>
             <iframe
-              height="250"
+              height="200"
               src="https://www.youtube.com/embed/blifZs8RIvo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <iframe
+              height="200"
+              src="https://www.youtube.com/embed/TF8f0eDkEY8"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
