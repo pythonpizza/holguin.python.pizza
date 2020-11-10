@@ -22,24 +22,24 @@ export default class Speakers extends React.Component {
         <Container size={Sizes.small}>
           <h1>Charlas</h1>
           <p>
-            Todas las charlas serán transmitidas por{" "}
+            Todas las charlas serán transmitidas el 14 de noviembre de 2020 por{" "}
             <a
-              href="http://conferencias.uic.cu/"
+              href="https://conferencias.uic.cu/python_pizza_holguin"
               target="_blank"
               rel="noopener noreferrer"
             >
               la plataforma de conferencias de la UIC
             </a>{" "}
-            y{" "}
+            y además por{" "}
             <a
               href="https://www.youtube.com/channel/UCs3DNJSzJJ5pW0tIKQbOPAA"
               target="_blank"
               rel="noopener noreferrer"
             >
               nuestro canal de YouTube
-            </a>{" "}
-            el 14 de noviembre de 2020, y unos días más tarde estarán
-            disponibles como videos independientes en YouTube y Picta.
+            </a>
+            . Unos días más tarde estarán disponibles como videos independientes
+            en YouTube y Picta.
           </p>
           <br />
           <p>
