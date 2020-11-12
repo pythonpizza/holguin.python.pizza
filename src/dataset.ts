@@ -187,7 +187,6 @@ export const PIZZA_SPONSOR: Sponsor = {
   name: "Holala",
   link: "https://tormenudigital.com/holala/",
   photo: require("../assets/sponsors/holala.png"),
-  photo: require("../assets/sponsors/holala.png"),
 };
 
 export const DAY_START = 9 * 60; // 9am
