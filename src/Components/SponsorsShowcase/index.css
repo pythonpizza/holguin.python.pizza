@@ -33,6 +33,10 @@
       width: 12rem;
     }
 
+    &#holala img {
+      width: 28rem;
+    }
+
     @media (--tablet) {
       margin: 0;
     }

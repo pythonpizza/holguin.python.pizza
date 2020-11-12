@@ -182,6 +182,14 @@ export const SPONSORS: Sponsor[] = [
   },
 ];
 
+export const PIZZA_SPONSOR: Sponsor = {
+  id: "holala",
+  name: "Holala",
+  link: "https://tormenudigital.com/holala/",
+  photo: require("../assets/sponsors/holala.png"),
+  photo: require("../assets/sponsors/holala.png"),
+};
+
 export const DAY_START = 9 * 60; // 9am
 
 export const SCHEDULE: Schedule[] = [
