@@ -20,13 +20,6 @@ export default class Sponsors extends React.Component {
           <h1>Y pizzas al estilo de</h1>
           <SponsorsShowcase sponsors={[PIZZA_SPONSOR]} />
         </Container>
-        <Container size={Sizes.small}>
-          <p>
-            Si te interesa colaborar con nosotros, ponte en contacto con el
-            equipo en{" "}
-            <a href="mailto:holguin@python.pizza">holguin@python.pizza</a>
-          </p>
-        </Container>
       </section>
     );
   }
