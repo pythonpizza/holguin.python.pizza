@@ -76,7 +76,7 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     social: "https://twitter.com/hian_cd",
   },
   {
-    name: "Javier Alejandro Oramas López ",
+    name: "Javier Alejandro Oramas López",
     photo: require("../assets/speakers/javi_oramas.jpg"),
     social: "https://twitter.com/javi_oramas",
   },
@@ -322,7 +322,7 @@ export const SCHEDULE: Schedule[] = [
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex(
-      (x) => x.name == "Javier Alejandro Oramas López "
+      (x) => x.name == "Javier Alejandro Oramas López"
     ),
   },
   {
@@ -456,7 +456,7 @@ export const SCHEDULE: Schedule[] = [
     type: Types.BREAK,
   },
   {
-    title: "La Python Software Foundation y tú",
+    title: "¿De qué hablo cuando hablo de Python?",
     duration: 30,
     type: Types.KEYNOTE,
     speaker: SPEAKERS.findIndex((x) => x.name == "Lorena Mesa"),
