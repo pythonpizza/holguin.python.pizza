@@ -47,7 +47,7 @@ export default class Header extends React.Component {
                 href="#speakers"
                 data-destination="speakers"
               >
-                Charlas
+                Keynotes
               </a>
             </li>
             <li>
@@ -57,15 +57,6 @@ export default class Header extends React.Component {
                 data-destination="schedule"
               >
                 Programa
-              </a>
-            </li>
-            <li>
-              <a
-                onClick={this.onNavClick}
-                href="#videos"
-                data-destination="videos"
-              >
-                Videos
               </a>
             </li>
             <li>

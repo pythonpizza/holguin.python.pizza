@@ -55,31 +55,6 @@ export default class About extends React.Component {
               Python Pizza Hamburgo
             </a>
           </p>
-          <br />
-          <p>
-            Para estar al tanto de las últimas noticias de Python Pizza,{" "}
-            <a
-              href="https://twitter.com/pythonpizzaconf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              síguenos en Twitter
-            </a>
-            .
-          </p>
-          <p>
-            Si tienes dudas o preguntas, puedes contactarnos en{" "}
-            <a href="mailto:holguin@python.pizza">holguin@python.pizza</a> o
-            sumarte a nuestro{" "}
-            <a
-              href="https://t.me/pythonpizzaholguin/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              grupo de Telegram
-            </a>
-            .
-          </p>
         </Container>
       </section>
     );

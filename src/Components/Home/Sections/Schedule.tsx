@@ -34,6 +34,21 @@ export default class Schedule extends React.Component {
             ))}
           </ul>
         </Container>
+        <br />
+        <br />
+        <Container size={Sizes.small}>
+          <p>
+            Puedes encontrar todas las charlas del evento en{" "}
+            <a
+              href="https://www.youtube.com/playlist?list=PLZwPvfQ1ZURd5yIDlY2xFJEeWknS9mHhK"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              esta lista de reproducción
+            </a>
+            .
+          </p>
+        </Container>
       </section>
     );
   }
