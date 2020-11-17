@@ -82,6 +82,15 @@ export default class Header extends React.Component {
                 Colaboradores
               </a>
             </li>
+            <li>
+              <a
+                onClick={this.onNavClick}
+                href="#staff"
+                data-destination="staff"
+              >
+                Staff
+              </a>
+            </li>
           </ul>
         </Container>
       </div>

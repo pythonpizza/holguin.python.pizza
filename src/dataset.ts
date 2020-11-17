@@ -1,5 +1,6 @@
 import Speaker from "@/Types/Speaker";
 import Sponsor from "@/Types/Sponsor";
+import Organizer from "@/Types/Organizer";
 import Schedule, { Types } from "@/Types/Schedule";
 
 export const KEYNOTE_SPEAKERS: Speaker[] = [
@@ -464,5 +465,43 @@ export const SCHEDULE: Schedule[] = [
     title: "Despedida 👋",
     duration: 6,
     type: Types.OTHER,
+  },
+];
+
+export const ORGANIZERS: Organizer[] = [
+  {
+    name: "Lorenzo Peña",
+    photo: require("../assets/staff/lorinkoz.jpg"),
+    social: "https://twitter.com/lorinkoz",
+  },
+  {
+    name: "Carlos Parra",
+    photo: require("../assets/staff/carlosparraz.jpg"),
+    social: "https://libreoffice.cubava.cu",
+  },
+  {
+    name: "Leodanis Pozo",
+    photo: require("../assets/staff/lpozo78.jpg"),
+    social: "https://twitter.com/lpozo78",
+  },
+  {
+    name: "Oscar Garcell",
+    photo: require("../assets/staff/codeshard.jpg"),
+    social: "https://twitter.com/codeshard",
+  },
+  {
+    name: "Yisel Clavel",
+    photo: require("../assets/staff/yisel_clavel.jpg"),
+    social: "https://twitter.com/yisel_clavel",
+  },
+  {
+    name: "Reinier Hernández",
+    photo: require("../assets/staff/RagnarokReinier.jpg"),
+    social: "https://twitter.com/RagnarokReinier",
+  },
+  {
+    name: "Leonel Salazar",
+    photo: require("../assets/staff/leonel_lordford.jpg"),
+    social: "https://twitter.com/leonel_lordford",
   },
 ];

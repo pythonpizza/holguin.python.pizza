@@ -10,6 +10,7 @@ import Speakers from "./Sections/Speakers";
 import Videos from "./Sections/Videos";
 import Sponsors from "./Sections/Sponsors";
 import Coc from "./Sections/Coc";
+import Staff from "./Sections/Staff";
 
 export default class Home extends React.Component {
   render() {
@@ -22,6 +23,7 @@ export default class Home extends React.Component {
         <Videos />
         <Coc />
         <Sponsors />
+        <Staff />
       </div>
     );
   }
