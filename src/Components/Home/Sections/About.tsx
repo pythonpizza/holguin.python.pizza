@@ -2,6 +2,8 @@ import * as React from "react";
 
 import Container, { Sizes } from "@/Components/Container";
 
+import "./About.css";
+
 export default class About extends React.Component {
   render() {
     return (
@@ -25,12 +27,20 @@ export default class About extends React.Component {
           </p>
           <br />
           <p>
-            La edición 2020 del Python Pizza Holguín es la primera de su tipo en
-            Cuba, aunque la idea original viene de Python Pizza Nápoles. Si
+            La edición 2022 del Python Pizza Holguín es la segunda vez que se realiza en
+            Cuba, y la idea original viene de Python Pizza Nápoles. Si
             quieres saber más, mira lo que ha sucedido en las ediciones pasadas
-            de Python Pizza en otras partes del mundo:
+            de Python Pizza en Holguín y en otras partes del mundo:
             <br />
             <br />
+            <a
+              href="https://holguin.python.pizza"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Python Pizza Holguín 2020
+            </a>{" "}
+            &middot;{" "}
             <a
               href="https://remote.python.pizza"
               target="_blank"
