@@ -1,5 +1,6 @@
 .home section.coc {
   padding-bottom: 9rem;
+  text-align: justify;
 }
 
 .coc {
@@ -14,7 +15,7 @@
   }
 
   .container.container--medium p {
-    text-align: left;
+    text-align: justify;
   }
 
   h2 {

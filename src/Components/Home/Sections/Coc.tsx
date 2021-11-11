@@ -16,13 +16,13 @@ export default () => (
         Python Pizza Holguín es un evento inclusivo, comprometido con proveer
         una experiencia libre de discriminación para todos los participantes,
         sin importar género, identidad y expresión de género, orientación
-        sexual, discapacidad o apariencia física, tamaño del cuerpo, raza, edad,
+        sexual o política, discapacidad o apariencia física, tamaño del cuerpo, raza, edad,
         religión (o ausencia de ella) y preferencias de tecnología.
       </p>
       <p>
         No toleramos ninguna forma de acoso o discriminación por parte de los
         participantes en la conferencia. No toleramos ninguna forma de expresión
-        contraria al gobierno o al pueblo cubano. El lenguaje o las analogías de
+        contraria al pueblo cubano. El lenguaje o las analogías de
         corte sexual no son apropiadas en ningún marco del evento, incluyendo
         las charlas.
       </p>
