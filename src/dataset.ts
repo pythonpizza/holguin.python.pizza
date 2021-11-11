@@ -499,9 +499,4 @@ export const ORGANIZERS: Organizer[] = [
     photo: require("../assets/staff/RagnarokReinier.jpg"),
     social: "https://twitter.com/RagnarokReinier",
   },
-  {
-    name: "Leonel Salazar",
-    photo: require("../assets/staff/leonel_lordford.jpg"),
-    social: "https://twitter.com/leonel_lordford",
-  },
 ];
