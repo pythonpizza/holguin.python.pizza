@@ -1,3 +1,7 @@
 #about p {
   text-align: justify;
 }
+
+#about .editions {
+  text-align: center;
+}

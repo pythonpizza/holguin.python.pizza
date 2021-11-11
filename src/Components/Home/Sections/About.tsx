@@ -33,6 +33,8 @@ export default class About extends React.Component {
             de Python Pizza en Holguín y en otras partes del mundo:
             <br />
             <br />
+          </p>
+          <div className="editions">
             <a
               href="https://holguin.python.pizza"
               target="_blank"
@@ -64,7 +66,7 @@ export default class About extends React.Component {
             >
               Python Pizza Hamburgo
             </a>
-          </p>
+          </div>
         </Container>
       </section>
     );
