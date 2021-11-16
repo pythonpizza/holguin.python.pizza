@@ -1,6 +1,6 @@
 {
   "name": "holguin.python.pizza",
-  "version": "2020",
+  "version": "2020.1",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
