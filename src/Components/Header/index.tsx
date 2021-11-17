@@ -64,7 +64,7 @@ export default class Header extends React.Component {
                 CoC
               </a>
             </li>
-            {/* <li>
+            <li>
               <a
                 onClick={this.onNavClick}
                 href="#sponsors"
@@ -72,7 +72,7 @@ export default class Header extends React.Component {
               >
                 Colaboradores
               </a>
-            </li> */}
+            </li>
             <li>
               <a
                 onClick={this.onNavClick}
