@@ -142,26 +142,38 @@ export const MAIN_SPONSORS: Sponsor[] = [
     link: "https://gutl.jovenclub.cu/",
     photo: require("../assets/sponsors/gutl_logo.png"),
   },
-  {
-    id: "psf",
-    name: "Python Software Foundation",
-    link: "https://www.python.org/psf/",
-    photo: require("../assets/sponsors/psf-logo-narrow-256x84-alpha.png"),
-  },
+  // {
+  //   id: "psf",
+  //   name: "Python Software Foundation",
+  //   link: "https://www.python.org/psf/",
+  //   photo: require("../assets/sponsors/psf-logo-narrow-256x84-alpha.png"),
+  // },
 ];
 
 export const SPONSORS: Sponsor[] = [
+  // {
+  //   id: "proyecto_delta",
+  //   name: "Proyecto Delta",
+  //   link: "https://www.facebook.com/proyectodelta101",
+  //   photo: require("../assets/sponsors/proyecto-delta.png"),
+  // },
+  // {
+  //   id: "llu",
+  //   name: "La Lucecita",
+  //   link: "https://cubamaps.travel/es/compras/tiendas/75022-tienda-la-lucecita",
+  //   photo: require("../assets/sponsors/la-lucecita.png"),
+  // },
   {
-    id: "proyecto_delta",
-    name: "Proyecto Delta",
-    link: "https://www.facebook.com/proyectodelta101",
-    photo: require("../assets/sponsors/proyecto-delta.png"),
+    id: "freemance",
+    name: "Freemance",
+    link: "https://freemance.slyk.io",
+    photo: require("../assets/sponsors/freemance.png"),
   },
   {
-    id: "llu",
-    name: "La Lucecita",
-    link: "https://cubamaps.travel/es/compras/tiendas/75022-tienda-la-lucecita",
-    photo: require("../assets/sponsors/la-lucecita.png"),
+    id: "kwelta",
+    name: "Kwelta",
+    link: "https://kwelta.tech",
+    photo: require("../assets/sponsors/kwelta.png"),
   },
   {
     id: "bchc",
@@ -169,18 +181,18 @@ export const SPONSORS: Sponsor[] = [
     link: "https://www.bachecubano.com/",
     photo: require("../assets/sponsors/logo-bachecubano.png"),
   },
-  {
-    id: "cuban_trail_team",
-    name: "Cuban Trail Team",
-    link: "https://www.cubantrailteam.com/",
-    photo: require("../assets/sponsors/cuban-trail-team.jpg"),
-  },
-  {
-    id: "uho",
-    name: "Universidad de Holguín",
-    link: "https://www.uho.edu.cu/",
-    photo: require("../assets/sponsors/uho.jpg"),
-  },
+  // {
+  //   id: "cuban_trail_team",
+  //   name: "Cuban Trail Team",
+  //   link: "https://www.cubantrailteam.com/",
+  //   photo: require("../assets/sponsors/cuban-trail-team.jpg"),
+  // },
+  // {
+  //   id: "uho",
+  //   name: "Universidad de Holguín",
+  //   link: "https://www.uho.edu.cu/",
+  //   photo: require("../assets/sponsors/uho.jpg"),
+  // },
 ];
 
 export const PIZZA_SPONSOR: Sponsor = {

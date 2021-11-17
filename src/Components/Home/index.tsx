@@ -20,7 +20,7 @@ export default class Home extends React.Component {
         {/* <Speakers /> */}
         {/* <Schedule /> */}
         <Coc />
-        {/* <Sponsors /> */}
+        <Sponsors />
         <Staff />
       </div>
     );

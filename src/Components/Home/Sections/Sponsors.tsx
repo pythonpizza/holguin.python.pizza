@@ -16,10 +16,10 @@ export default class Sponsors extends React.Component {
           <h1>Con la colaboración de</h1>
           <SponsorsShowcase sponsors={SPONSORS} />
         </Container>
-        <Container size={Sizes.medium}>
+        {/* <Container size={Sizes.medium}>
           <h1>Y pizzas al estilo de</h1>
           <SponsorsShowcase sponsors={[PIZZA_SPONSOR]} />
-        </Container>
+        </Container> */}
       </section>
     );
   }
