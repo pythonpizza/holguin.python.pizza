@@ -35,14 +35,14 @@ export default class About extends React.Component {
             <br />
           </p>
           <div className="editions">
-            <a
+            {/*<a
               href="https://holguin.python.pizza"
               target="_blank"
               rel="noopener noreferrer"
             >
               Python Pizza Holguín 2020
             </a>{" "}
-            &middot;{" "}
+            &middot;{" "}*/}
             <a
               href="https://remote.python.pizza"
               target="_blank"
