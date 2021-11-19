@@ -5,6 +5,8 @@ import Flex from "@/Components/Flex";
 import SpeakerCard from "@/Components/SpeakerCard";
 import { KEYNOTE_SPEAKERS } from "@/dataset";
 
+import './Speakers.css';
+
 export default class Speakers extends React.Component {
   render() {
     return (
