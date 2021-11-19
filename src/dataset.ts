@@ -170,6 +170,12 @@ export const SPONSORS: Sponsor[] = [
     photo: require("../assets/sponsors/freemance.png"),
   },
   {
+    id: "echateesto",
+    name: "Échate esto",
+    link: "https://wa.me/+5358421848",
+    photo: require("../assets/sponsors/echate_esto.png"),
+  },
+  {
     id: "kwelta",
     name: "Kwelta",
     link: "https://kwelta.tech",
