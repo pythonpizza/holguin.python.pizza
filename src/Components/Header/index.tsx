@@ -41,15 +41,15 @@ export default class Header extends React.Component {
                 ¿Cómo que 🍕?
               </a>
             </li>
-            {/* <li>
+            <li>
               <a
                 onClick={this.onNavClick}
                 href="#speakers"
                 data-destination="speakers"
               >
-                Keynotes
+                Charlas
               </a>
-            </li> */}
+            </li>
             {/* <li>
               <a
                 onClick={this.onNavClick}
@@ -59,6 +59,15 @@ export default class Header extends React.Component {
                 Programa
               </a>
             </li> */}
+            <li>
+              <a
+                href="https://forms.gle/feQmZLe2vb2LQJyN9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CfP
+              </a>
+            </li>
             <li>
               <a onClick={this.onNavClick} href="#coc" data-destination="coc">
                 CoC
