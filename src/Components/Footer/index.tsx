@@ -6,12 +6,12 @@ import Wave from "@/Components/Wave";
 import Container, { Sizes } from "@/Components/Container";
 
 const SOCIALS = [
-  // {
-  //   name: "facebook",
-  //   icon: require("Assets/socials/facebook.png"),
-  //   link:
-  //     "https://www.facebook.com/events/holguin-la-tierra-mas-hermosa/python-pizza-holgu%C3%ADn/689631564984711/",
-  // },
+  {
+    name: "facebook",
+    icon: require("Assets/socials/facebook.png"),
+    link:
+      "https://fb.me/e/UzkflS7I",
+  },
   {
     name: "twitter",
     icon: require("Assets/socials/twitter.png"),
