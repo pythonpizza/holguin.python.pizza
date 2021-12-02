@@ -142,12 +142,12 @@ export const MAIN_SPONSORS: Sponsor[] = [
     link: "https://gutl.jovenclub.cu/",
     photo: require("../assets/sponsors/gutl_logo.png"),
   },
-  // {
-  //   id: "psf",
-  //   name: "Python Software Foundation",
-  //   link: "https://www.python.org/psf/",
-  //   photo: require("../assets/sponsors/psf-logo-narrow-256x84-alpha.png"),
-  // },
+  {
+    id: "psf",
+    name: "Python Software Foundation",
+    link: "https://www.python.org/psf/",
+    photo: require("../assets/sponsors/psf-logo-narrow-256x84-alpha.png"),
+  },
 ];
 
 export const SPONSORS: Sponsor[] = [
