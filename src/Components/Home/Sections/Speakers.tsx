@@ -11,7 +11,7 @@ export default class Speakers extends React.Component {
   render() {
     return (
       <section id="speakers" className="speakers">
-        {/* <Container size={Sizes.small}>
+        <Container size={Sizes.small}>
           <h1>Ponentes Principales</h1>
         </Container>
         <Container size={Sizes.medium}>
@@ -20,8 +20,8 @@ export default class Speakers extends React.Component {
               <SpeakerCard key={i} speaker={speaker} />
             ))}
           </Flex>
-        </Container> */}
-        <Container size={Sizes.small}>
+        </Container>
+        {/* <Container size={Sizes.small}>
           <h1>Charlas</h1>
           <p>
             !El{" "}
@@ -50,7 +50,7 @@ export default class Speakers extends React.Component {
               Python Pizza presencial en Holguín el sábado 15 de enero de
               2022.
             </p>
-          </Container>
+          </Container> */}
       </section>
     );
   }

@@ -4,126 +4,78 @@ import Organizer from "@/Types/Organizer";
 import Schedule, { Types } from "@/Types/Schedule";
 
 export const KEYNOTE_SPEAKERS: Speaker[] = [
+  // {
+  //   name: "Lorena Mesa",
+  //   photo: require("../assets/speakers/loooorenanicole.jpg"),
+  //   job: ["Presidenta de la PSF", " Ingeniera de datos en GitHub"],
+  //   social: "https://lorenamesa.com",
+  // },
+  // {
+  //   name: "Raúl Alderete",
+  //   photo: require("../assets/speakers/xc0d3.jpg"),
+  //   job: ["CEO de CS Academy", "Equipo de seguridad - Parrot OS"],
+  //   social: "https://github.com/xcod3",
+  // },
+  // {
+  //   name: "Alejandro Piad",
+  //   photo: require("../assets/speakers/alejandropiad.jpg"),
+  //   job: ["MatCom", "Universidad de La Habana"],
+  //   social: "https://apiad.net",
+  // },
   {
-    name: "Lorena Mesa",
-    photo: require("../assets/speakers/loooorenanicole.jpg"),
-    job: ["Presidenta de la PSF", " Ingeniera de datos en GitHub"],
-    social: "https://lorenamesa.com",
-  },
-  {
-    name: "Raúl Alderete",
-    photo: require("../assets/speakers/xc0d3.jpg"),
-    job: ["CEO de CS Academy", "Equipo de seguridad - Parrot OS"],
-    social: "https://github.com/xcod3",
-  },
-  {
-    name: "Alejandro Piad",
-    photo: require("../assets/speakers/alejandropiad.jpg"),
-    job: ["MatCom", "Universidad de La Habana"],
-    social: "https://apiad.net",
+    name: "Lorenzo",
+    photo: require("../assets/speakers/lorenzo.webp"),
+    job: ["Desarrollador"],
+    social: "https://atareao.es",
   },
 ];
 
 export const REGULAR_SPEAKERS: Speaker[] = [
   {
-    name: "Andrew Kim",
-    photo: require("../assets/speakers/dearandrewkim.jpg"),
+    name: "Daniel Gonzalez",
+    photo: require("../assets/speakers/unknown.jpg"),
     social: "https://dearandrewkim.com",
   },
   {
-    name: "Andy García Díaz",
-    photo: require("../assets/speakers/dancuba96.jpg"),
-    social: "https://twitter.com/dancuba96",
+    name: "Leynier Gutiérrez González",
+    photo: require("../assets/speakers/leynier.png"),
+    social: "https://twitter.com/leynier41",
   },
   {
-    name: "Antonio Peña Batista",
-    photo: require("../assets/speakers/apenab1995.jpg"),
-    social: "https://twitter.com/apenab1995",
+    name: "Pedro Machado",
+    photo: require("../assets/speakers/unknown.jpg"),
+    social: "https://twitter.com/",
   },
   {
-    name: "Carlos Parra Zaldívar",
-    photo: require("../assets/speakers/carlosparraz.jpg"),
-    social: "https://libreoffice.cubava.cu",
+    name: "Eduardo Ismael García Pérez",
+    photo: require("../assets/speakers/eduardo.jpg"),
+    social: "https://twitter.com/eduardo_gpg",
   },
   {
-    name: "Cristián Maureira-Fredes",
-    photo: require("../assets/speakers/cmaureir.jpg"),
-    social: "https://maureira.xyz",
+    name: "Oscar L. Garcell Martínez",
+    photo: require("../assets/staff/codeshard.jpg"),
+    social: "https://twitter.com/codeshard",
   },
   {
-    name: "Fernando Masanori",
-    photo: require("../assets/speakers/fmasanori.jpg"),
-    social: "https://twitter.com/fmasanori",
+    name: "Vladimir Reyes La O",
+    photo: require("../assets/speakers/vladimir.jpg"),
+    social: "https://twitter.com/vreyes7",
   },
   {
-    name: "Francisco Perdigon Romero",
-    photo: require("../assets/speakers/f_perdigon.jpg"),
-    social: "https://twitter.com/f_perdigon",
+    name: "Sara Iris Garcia",
+    photo: require("../assets/speakers/unknown.jpg"),
+    social: "https://twitter.com/",
   },
   {
-    name: "Gabriel A. López López",
-    photo: require("../assets/speakers/glpzzz.jpg"),
-    social: "https://twitter.com/glpzzz",
-  },
-  {
-    name: "Gabriel Rodríguez Urquiza",
-    photo: require("../assets/speakers/gabriel_ru98.jpg"),
-    social: "https://twitter.com/gabriel_ru98",
-  },
-  {
-    name: "Hian Cañizares",
-    photo: require("../assets/speakers/hian_cd.jpg"),
-    social: "https://twitter.com/hian_cd",
-  },
-  {
-    name: "Javier Alejandro Oramas López",
-    photo: require("../assets/speakers/javi_oramas.jpg"),
-    social: "https://twitter.com/javi_oramas",
-  },
-  {
-    name: "Leodanis Pozo Ramos",
-    photo: require("../assets/speakers/lpozo78.jpg"),
-    social: "https://twitter.com/lpozo78",
+    name: "Rasel Agüero Fernández",
+    photo: require("../assets/speakers/rasel.jpg"),
+    social:
+      "https://www.linkedin.com/in/rasel-ag%C3%BCero-fern%C3%A1ndez-28a506200/",
   },
   {
     name: "Lorenzo Peña",
     photo: require("../assets/speakers/lorinkoz.jpg"),
     social: "https://twitter.com/lorinkoz",
-  },
-  {
-    name: "Mauricio Baeza",
-    photo: require("../assets/speakers/elmau.jpg"),
-    // social: "",
-  },
-  {
-    name: "Miroslav Šedivý",
-    photo: require("../assets/speakers/eumiro.jpg"),
-    social: "https://twitter.com/eumiro",
-  },
-  {
-    name: "Pablo Mestre Drake",
-    photo: require("../assets/speakers/elmor3no_.jpg"),
-    social: "https://twitter.com/elmor3no_",
-  },
-  {
-    name: "Pavel Milanes Costa",
-    photo: require("../assets/speakers/co7wt.jpg"),
-    social: "https://twitter.com/co7wt",
-  },
-  {
-    name: "Pedro Almirall",
-    photo: require("../assets/speakers/ktowen_dev.jpg"),
-    social: "https://twitter.com/ktowen_dev",
-  },
-  {
-    name: "Russell Keith-Magee",
-    photo: require("../assets/speakers/freakboy3742.jpg"),
-    social: "https://twitter.com/freakboy3742",
-  },
-  {
-    name: "Suilan Estévez Velarde",
-    photo: require("../assets/speakers/suilanestevez.jpg"),
-    social: "https://twitter.com/suilanestevez",
   },
 ];
 
@@ -217,74 +169,58 @@ export const SCHEDULE: Schedule[] = [
     type: Types.OTHER,
   },
   {
-    title: "¿Por qué Python?",
+    title: "¿Qué me ha dado Python?",
     duration: 30,
     type: Types.KEYNOTE,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Raúl Alderete"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Lorenzo"),
   },
   {
-    title: 'Más allá del "Hola Mundo"',
-    summary:
-      "Mucha gente se sorprende con la facilidad que uno puede conseguir el " +
-      'primer "Hola Mundo" en Python, pero ¿qué hay detrás? En esta charla ' +
-      "tendremos un viaje a todo lo que está pasando detrás del escenario " +
-      "cuando ejecutamos código Python, y entenderemos como funciona CPython.",
+    title: "Scrapping the web with Python",
+    summary: "Learn how to scrape the web with python and beautifulsoup.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Cristián Maureira-Fredes"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Daniel Gonzalez"),
   },
   {
-    title: "Viaje al mundo profundo del desarrollo web",
+    title: "Creando bibliotecas asíncronas y síncronas a la vez",
     summary:
-      "La historia de un gerente de proyectos de construcción que cayó en " +
-      "el mundo profundo de Django y Python",
+      "Una biblioteca que realice operaciones I/O se puede implementar de forma sincrónica" +
+      " o asincrónica, pero ambas son necesarias. Si te interesa saber qué vías existen " +
+      "para implementarlas a la vez no te pierdas esta charla.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Andrew Kim"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Leynier Gutiérrez González"),
   },
   {
-    title: "Django y React: ¿ateje, teipe o cola-loca?",
+    title: "Web3.py la Alternativa de Python de Web3",
     summary:
-      "Django en el backend y React en el frontend hacen una combinación " +
-      "inigualable, pero no carente de desafíos. Acompáñame en esta aventura " +
-      "y aprenderás a cómo integrarlos y no morir en el intento, juntos " +
-      "descubriremos si se requiere ateje, teipe o cola-loca para que no se " +
-      "nos despeguen en producción.",
+      "Python como uno de los lenguajes de propósito general más usado en todo tipo " +
+      "de aplicaciones no se queda atrás si de Blockhain se trata. Web3.py aparece como" +
+      " la backend API oficial para desarrolladores Web3 de la Ethereum Fundation.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Antonio Peña Batista"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Pedro Machado"),
   },
   {
     title:
-      "Manteniendo paquetes Python en Debian GNU/Linux: Mi experiencia personal",
+      "Seudonimización de datos personales: Una historia de Spacy y FastAPI",
     summary:
-      "Hace un año y pocos meses me adentré en el mundo del mantenimiento de " +
-      "paquetes (programas) para Debian GNU/Linux. Dentro del universo Debian " +
-      "me di a la tarea de mantener proyectos basados en Python. Sobre este " +
-      "proceso y mi experiencia me gustaría compartir 10 minutos de charla. ",
+      "Sabes lo que es la ley de protección de datos? Sabes como proteger tus datos" +
+      " y los de tus clientes? Mostraré de forma sencilla, como seudonimizar los " +
+      "datos personales, en documentos, usando técnicas de procesamiento de lenguaje natural.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Pablo Mestre Drake"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Oscar L. Garcell Martínez"),
   },
   {
-    title: "Procesamiento digital de imágenes usando OpenCV y Python",
+    title: "Cómo importar tablas en archivos pdf a pandas",
     summary:
-      "En esta charla hablaremos de la librería OpenCV para el procesamiento " +
-      "digital de imágenes (PDI). Varios ejemplos de cómo utilizar las " +
-      "técnicas de PDI serán mostrados y daremos un vistazo rápido vistazo " +
-      "al código.",
+      "En esta charla te compartiré varios ejemplos prácticos de cómo utilizar " +
+      "las librerías de Tabula y Excalibur para importar datos de tablas en " +
+      "archivos pdf a pandas.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Francisco Perdigon Romero"),
-  },
-  {
-    title: "Un día tiene solo 24±1 horas",
-    summary:
-      "El primer domingo de noviembre puedes dormir una hora más o dedicar " +
-      "mucho más tiempo a arreglar problemas de fecha y hora en tu código Python.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Miroslav Šedivý"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Sara Iris Garcia"),
   },
   {
     title: "Receso ⛱️",
@@ -292,192 +228,48 @@ export const SCHEDULE: Schedule[] = [
     type: Types.BREAK,
   },
   {
-    title: "Python y la Inteligencia Artificial",
-    duration: 30,
-    type: Types.KEYNOTE,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Alejandro Piad"),
-  },
-  {
-    title: "Democratizando el Machine Learning con AutoGOAL",
+    title: "Prueba tu código con comentarios",
     summary:
-      "AutoGOAL es una biblioteca open-source para automatizar gran parte " +
-      "del proceso de Machine Learning. En esta charla veremos una " +
-      "descripción general de la herramienta, para qué sirve, y cómo puede " +
-      "facilitar el desarrollo de aplicaciones basadas en Machine Learning.",
+      "En esta charla hablaremos sobre el cómo poder documentar y " +
+      "testear tu código Python mediante comentarios.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Suilan Estévez Velarde"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Eduardo Ismael García Pérez"),
   },
   {
-    title: "Python Emergency Remote Teaching",
+    title: "Administradores de redes y Python",
     summary:
-      "During the pandemic lockdown of COVID-19, we found a very different " +
-      "context from the usual: a) students with much more time available for " +
-      "learning b) many students who did not have a personal computer and " +
-      "could only access classes by cell phone c) difficulty to realistically " +
-      "assess learning. In this lecture we will present the real experiences " +
-      "in a traditional programming course given during the Covid-19 pandemic.",
+    "Python no es solo desarrollo web e inteligencia artificial.  A partir de la " +
+    "versatilidad del lenguaje surgen diversas áreas de aplicación. Python desde el " +
+    "punto de vista de un aspirante a administrador de red, este es el tema de la " +
+    "siguiente presentación.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Fernando Masanori"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Vladimir Reyes La O"),
   },
   {
-    title: "Mail2InfluxDB: mejorando el monitoreo del correo con Python",
+    title: "Back to the Pony",
     summary:
-      "Los sysadmins aman los gráficos, pero los sensores para el monitoreo " +
-      "del servicio de correos con el TIG stack son pobres en cantidad/calidad " +
-      "de información, mail2influx.py viene a solucionar eso...",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Pavel Milanes Costa"),
-  },
-  {
-    title: "Video-diet, poniendo tu almacenamiento a régimen",
-    summary:
-      "En esta charla se hablará de video-diet, una herramienta que reduce el " +
-      "tamaño de videos y audios sin pérdida de calidad, solo cambiando el " +
-      "codec a HEVC, logrando reducciones de hasta 90%.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex(
-      (x) => x.name == "Javier Alejandro Oramas López"
-    ),
-  },
-  {
-    title: "Python y la Meteorología en Cuba",
-    summary:
-      "La Meteorología se ha vuelto imprescindible para el país. Para " +
-      "desarrollar esta ciencia es necesario programar, y lo hacemos en " +
-      "Python. Este lenguaje ayuda en el pronóstico y el análisis de datos. " +
-      "Acompáñanos, para aprender juntos un poco más.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Gabriel Rodríguez Urquiza"),
-  },
-  {
-    title: "Pizza! 🍕🍕",
-    duration: 30,
-    type: Types.LUNCH,
-  },
-  {
-    title: "The Document Foundation",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Carlos Parra Zaldívar"),
-  },
-  {
-    title: "Extendiendo LibreOffice con Python",
-    summary:
-      "Extender las posibilidades de LibreOffice con Python, es sencillo, " +
-      "fácil y divertido.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Mauricio Baeza"),
-  },
-  {
-    title: "Django ORM y el misterio de las agregaciones múltiples",
-    summary:
-      "Acompáñame a ver esta triste historia: un usuario de Django comienza " +
-      "a usar agregaciones múltiples sin haber leído cuidadosamente la " +
-      "documentación y, ¡sorpresa!, está recibiendo resultados incorrectos " +
-      "sin que haya ningún error aparente.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Pedro Almirall"),
-  },
-  {
-    title: "El pony y la barbacoa",
-    summary:
-      "Django el pony vive feliz en su casa solo... hasta que le empiezan a " +
-      "llegar parientes y tiene que armar una barbacoa. Aprende los retos " +
-      "principales para armar barbacoas en Django, de modo que quepan " +
-      "decenas, cientos y miles de parientes.",
+      "Lo que el tú del futuro le diría al tú del presente sobre un " +
+      "proyecto de Django que empieza de cero.",
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Lorenzo Peña"),
   },
   {
-    title: "Cómo Crear Contenidos Python: Tips y Buenas Prácticas",
+    title: "Kivy y Kivymd, dualidad de poder y estilo",
     summary:
-      "Generalmente los programadores Python (o todos?) subestiman el impacto " +
-      "que puede tener en sus carreras el hecho de crear y publicar " +
-      "contenidos escritos sobre Python. Crear un Blog personal y publicar " +
-      "artículos y tutoriales con relativa frecuencia puede influir " +
-      "positivamente en tu carrera como programador. En esta charla " +
-      "encontrarás algunos tips y buenas prácticas para lograr que tus " +
-      "artículos y tutoriales tengan la calidad y el impacto que necesitas " +
-      "para crecer en tu carrera como programador Python.",
+      "La charla expone la fortaleza y facilidad de Python en el campo de " +
+      "aplicación Interfaz de Usuario para un ambiente multiplataforma. " +
+      "Utilizando el framework kivy y la colección de widgets kivymd.",
     type: Types.TALK,
     duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Leodanis Pozo Ramos"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Rasel Agüero Fernández"),
   },
   {
-    title: "Kincapptory",
-    summary:
-      "Utilización de Python para la construcción en masa de aplicaciones " +
-      "Android personalizadas",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Gabriel A. López López"),
-  },
-  {
-    title: "Creando Telegram Bots para Ayudar en tareas de Clasificación de ML",
-    summary:
-      "Los problemas de clasificación son en los que tenemos que poner a un " +
-      "objeto en una o más clases, ejmeplo de esto puede ser clasificar si " +
-      "una foto es de un pez, un ave, una persona o un carro, o si la opinión " +
-      "que expresa un tweet es positiva o negativa. Este tipo de problemas " +
-      "puede ser atacado usando tecnicas de machine learning (ML), pero para " +
-      "esto se necesitan grandes volumenes de datos clasificados previamente. " +
-      "Para asistirnos en esta tarea se creo un modulo de Python para lanzar " +
-      "tareas de Python para tareas de clasificación y coordinar a los " +
-      "clasificadores.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Hian Cañizares"),
-  },
-  {
-    title: "Python all the things!",
-    summary:
-      "Have you ever wanted to write a GUI application you can run on your " +
-      "laptop? What about an app that you can run on your phone? Historically, " +
-      "these have been difficult to achieve with Python, and impossible to " +
-      "achieve without learning a different API for each platform. But no more. " +
-      "BeeWare is a collection of tools and libraries that allows you to " +
-      "build cross-platform native GUI applications in pure Python, targeting " +
-      "desktop, mobile and web platforms. In this talk, you'll be introduced " +
-      "to the BeeWare suite of tools and libraries, and see how you can use " +
-      "them to develop, from scratch, a simple GUI application that can be " +
-      "deployed as a standalone desktop application, or as a mobile phone " +
-      "application on iOS or Android - without making any changes to the " +
-      "application's codebase.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Russell Keith-Magee"),
-  },
-  {
-    title: "Proyecto Delta: De lo cotidiano y lo insólito, usando Python",
-    summary:
-      "El Proyecto Delta es un espectáculo humorístico que tiene lugar cada " +
-      "viernes en los cines del Proyecto 23 en La Habana. Este proyecto " +
-      "mezcla ciencia, tecnología y cultura geek. El propósito de la charla " +
-      "es mostrar cómo desde la tecnología desplegada en el show se usa " +
-      "Python en cada una de la aplicaciones que garantizan las " +
-      "presentaciones del proyecto.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Andy García Díaz"),
-  },
-  {
-    title: "Receso ⛱️",
-    duration: 12,
-    type: Types.BREAK,
-  },
-  {
-    title: "¿De qué hablo cuando hablo de Python?",
+    title: "Pizza! 🍕🍕",
     duration: 30,
-    type: Types.KEYNOTE,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Lorena Mesa"),
+    type: Types.LUNCH,
   },
   {
     title: "Despedida 👋",

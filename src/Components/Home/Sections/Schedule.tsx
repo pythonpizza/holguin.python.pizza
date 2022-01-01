@@ -36,7 +36,7 @@ export default class Schedule extends React.Component {
         </Container>
         <br />
         <br />
-        <Container size={Sizes.small}>
+        {/* <Container size={Sizes.small}>
           <p>
             Puedes encontrar todas las charlas del evento en{" "}
             <a
@@ -48,7 +48,7 @@ export default class Schedule extends React.Component {
             </a>
             .
           </p>
-        </Container>
+        </Container> */}
       </section>
     );
   }
