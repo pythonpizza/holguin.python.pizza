@@ -47,10 +47,10 @@ export default class Header extends React.Component {
                 href="#speakers"
                 data-destination="speakers"
               >
-                Charlas
+                Keynotes
               </a>
             </li>
-            {/* <li>
+            <li>
               <a
                 onClick={this.onNavClick}
                 href="#schedule"
@@ -58,8 +58,8 @@ export default class Header extends React.Component {
               >
                 Programa
               </a>
-            </li> */}
-            <li>
+            </li>
+            {/* <li>
               <a
                 href="https://forms.gle/feQmZLe2vb2LQJyN9"
                 target="_blank"
@@ -67,7 +67,7 @@ export default class Header extends React.Component {
               >
                 CfP
               </a>
-            </li>
+            </li> */}
             <li>
               <a onClick={this.onNavClick} href="#coc" data-destination="coc">
                 CoC
