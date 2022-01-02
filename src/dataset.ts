@@ -23,7 +23,7 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
   //   social: "https://apiad.net",
   // },
   {
-    name: "Lorenzo",
+    name: "Lorenzo Carbonell",
     photo: require("../assets/speakers/lorenzo.webp"),
     job: ["Desarrollador"],
     social: "https://atareao.es",
@@ -76,6 +76,11 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     name: "Lorenzo Peña",
     photo: require("../assets/speakers/lorinkoz.jpg"),
     social: "https://twitter.com/lorinkoz",
+  },
+  {
+    name: "Yisel Clavel Quintero",
+    photo: require("../assets/staff/yisel_clavel.jpg"),
+    social: "https://twitter.com/yisel_clavel",
   },
 ];
 
@@ -172,7 +177,7 @@ export const SCHEDULE: Schedule[] = [
     title: "¿Qué me ha dado Python?",
     duration: 30,
     type: Types.KEYNOTE,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Lorenzo"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Lorenzo Carbonell"),
   },
   {
     title: "Scrapping the web with Python",
@@ -267,14 +272,22 @@ export const SCHEDULE: Schedule[] = [
     speaker: SPEAKERS.findIndex((x) => x.name == "Rasel Agüero Fernández"),
   },
   {
-    title: "Pizza! 🍕🍕",
-    duration: 30,
-    type: Types.LUNCH,
+    title: "Detectando ironías con LSTM y Tensorflow",
+    summary:
+      "",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Yisel Clavel Quintero"),
   },
   {
     title: "Despedida 👋",
     duration: 6,
     type: Types.OTHER,
+  },
+  {
+    title: "Pizza! 🍕🍕",
+    duration: 30,
+    type: Types.LUNCH,
   },
 ];
 
