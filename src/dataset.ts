@@ -33,8 +33,8 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
 export const REGULAR_SPEAKERS: Speaker[] = [
   {
     name: "Daniel Gonzalez",
-    photo: require("../assets/speakers/unknown.jpg"),
-    social: "https://dearandrewkim.com",
+    photo: require("../assets/speakers/danielgonzalez.jpg"),
+    social: "https://twitter.com/dgrojas1978",
   },
   {
     name: "Leynier Gutiérrez González",
@@ -43,8 +43,8 @@ export const REGULAR_SPEAKERS: Speaker[] = [
   },
   {
     name: "Pedro Machado",
-    photo: require("../assets/speakers/unknown.jpg"),
-    social: "https://twitter.com/",
+    photo: require("../assets/speakers/pedromachado.jpg"),
+    social: "https://twitter.com/machado_leiva",
   },
   {
     name: "Eduardo Ismael García Pérez",
@@ -63,8 +63,8 @@ export const REGULAR_SPEAKERS: Speaker[] = [
   },
   {
     name: "Sara Iris Garcia",
-    photo: require("../assets/speakers/unknown.jpg"),
-    social: "https://twitter.com/",
+    photo: require("../assets/speakers/sarairis.jpg"),
+    social: "https://linkedin.com/in/sarairisgarcia",
   },
   {
     name: "Rasel Agüero Fernández",
