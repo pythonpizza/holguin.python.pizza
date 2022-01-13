@@ -24,7 +24,7 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
   // },
   {
     name: "Lorenzo Carbonell",
-    photo: require("../assets/speakers/lorenzo.webp"),
+    photo: require("../assets/speakers/lorenzocarbonell.jpg"),
     job: ["Desarrollador"],
     social: "https://atareao.es",
   },
