@@ -52,11 +52,6 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     social: "https://twitter.com/eduardo_gpg",
   },
   {
-    name: "Oscar L. Garcell Martínez",
-    photo: require("../assets/staff/codeshard.jpg"),
-    social: "https://twitter.com/codeshard",
-  },
-  {
     name: "Vladimir Reyes La O",
     photo: require("../assets/speakers/vladimir.jpg"),
     social: "https://twitter.com/vreyes7",
@@ -205,17 +200,6 @@ export const SCHEDULE: Schedule[] = [
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Pedro Machado"),
-  },
-  {
-    title:
-      "Seudonimización de datos personales: Una historia de Spacy y FastAPI",
-    summary:
-      "Sabes lo que es la ley de protección de datos? Sabes como proteger tus datos" +
-      " y los de tus clientes? Mostraré de forma sencilla, como seudonimizar los " +
-      "datos personales, en documentos, usando técnicas de procesamiento de lenguaje natural.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Oscar L. Garcell Martínez"),
   },
   {
     title: "Cómo importar tablas en archivos pdf a pandas",
