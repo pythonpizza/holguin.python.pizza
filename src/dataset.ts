@@ -37,11 +37,6 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     social: "https://twitter.com/dgrojas1978",
   },
   {
-    name: "Leynier Gutiérrez González",
-    photo: require("../assets/speakers/leynier.png"),
-    social: "https://twitter.com/leynier41",
-  },
-  {
     name: "Pedro Machado",
     photo: require("../assets/speakers/pedromachado.jpg"),
     social: "https://twitter.com/machado_leiva",
@@ -180,16 +175,6 @@ export const SCHEDULE: Schedule[] = [
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Daniel Gonzalez"),
-  },
-  {
-    title: "Creando bibliotecas asíncronas y síncronas a la vez",
-    summary:
-      "Una biblioteca que realice operaciones I/O se puede implementar de forma sincrónica" +
-      " o asincrónica, pero ambas son necesarias. Si te interesa saber qué vías existen " +
-      "para implementarlas a la vez no te pierdas esta charla.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Leynier Gutiérrez González"),
   },
   {
     title: "Web3.py la Alternativa de Python de Web3",
