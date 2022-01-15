@@ -186,30 +186,30 @@ export const SCHEDULE: Schedule[] = [
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Pedro Machado"),
   },
-  {
-    title: "Cómo importar tablas en archivos pdf a pandas",
-    summary:
-      "En esta charla te compartiré varios ejemplos prácticos de cómo utilizar " +
-      "las librerías de Tabula y Excalibur para importar datos de tablas en " +
-      "archivos pdf a pandas.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Sara Iris Garcia"),
-  },
-  {
-    title: "Receso ⛱️",
-    duration: 12,
-    type: Types.BREAK,
-  },
-  {
-    title: "Prueba tu código con comentarios",
-    summary:
-      "En esta charla hablaremos sobre el cómo poder documentar y " +
-      "testear tu código Python mediante comentarios.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Eduardo Ismael García Pérez"),
-  },
+  // {
+  //   title: "Cómo importar tablas en archivos pdf a pandas",
+  //   summary:
+  //     "En esta charla te compartiré varios ejemplos prácticos de cómo utilizar " +
+  //     "las librerías de Tabula y Excalibur para importar datos de tablas en " +
+  //     "archivos pdf a pandas.",
+  //   type: Types.TALK,
+  //   duration: 12,
+  //   speaker: SPEAKERS.findIndex((x) => x.name == "Sara Iris Garcia"),
+  // },
+  // {
+  //   title: "Receso ⛱️",
+  //   duration: 12,
+  //   type: Types.BREAK,
+  // },
+  // {
+  //   title: "Prueba tu código con comentarios",
+  //   summary:
+  //     "En esta charla hablaremos sobre el cómo poder documentar y " +
+  //     "testear tu código Python mediante comentarios.",
+  //   type: Types.TALK,
+  //   duration: 12,
+  //   speaker: SPEAKERS.findIndex((x) => x.name == "Eduardo Ismael García Pérez"),
+  // },
   {
     title: "Administradores de redes y Python",
     summary:
@@ -240,14 +240,14 @@ export const SCHEDULE: Schedule[] = [
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Rasel Agüero Fernández"),
   },
-  {
-    title: "Detectando ironías con LSTM y Tensorflow",
-    summary:
-      "",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Yisel Clavel Quintero"),
-  },
+  // {
+  //   title: "Detectando ironías con LSTM y Tensorflow",
+  //   summary:
+  //     "",
+  //   type: Types.TALK,
+  //   duration: 12,
+  //   speaker: SPEAKERS.findIndex((x) => x.name == "Yisel Clavel Quintero"),
+  // },
   {
     title: "Despedida 👋",
     duration: 6,
