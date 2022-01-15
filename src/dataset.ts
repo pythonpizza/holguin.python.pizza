@@ -240,14 +240,14 @@ export const SCHEDULE: Schedule[] = [
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Rasel Agüero Fernández"),
   },
-  // {
-  //   title: "Detectando ironías con LSTM y Tensorflow",
-  //   summary:
-  //     "",
-  //   type: Types.TALK,
-  //   duration: 12,
-  //   speaker: SPEAKERS.findIndex((x) => x.name == "Yisel Clavel Quintero"),
-  // },
+  {
+    title: "Detectando ironías con LSTM y Tensorflow",
+    summary:
+      "",
+    type: Types.TALK,
+    duration: 12,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Yisel Clavel Quintero"),
+  },
   {
     title: "Despedida 👋",
     duration: 6,
