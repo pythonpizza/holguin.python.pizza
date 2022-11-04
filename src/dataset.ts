@@ -213,10 +213,10 @@ export const SCHEDULE: Schedule[] = [
   {
     title: "Administradores de redes y Python",
     summary:
-    "Python no es solo desarrollo web e inteligencia artificial.  A partir de la " +
-    "versatilidad del lenguaje surgen diversas áreas de aplicación. Python desde el " +
-    "punto de vista de un aspirante a administrador de red, este es el tema de la " +
-    "siguiente presentación.",
+      "Python no es solo desarrollo web e inteligencia artificial.  A partir de la " +
+      "versatilidad del lenguaje surgen diversas áreas de aplicación. Python desde el " +
+      "punto de vista de un aspirante a administrador de red, este es el tema de la " +
+      "siguiente presentación.",
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Vladimir Reyes La O"),
@@ -242,8 +242,7 @@ export const SCHEDULE: Schedule[] = [
   },
   {
     title: "Detectando ironías con LSTM y Tensorflow",
-    summary:
-      "",
+    summary: "",
     type: Types.TALK,
     duration: 12,
     speaker: SPEAKERS.findIndex((x) => x.name == "Yisel Clavel Quintero"),
@@ -261,26 +260,26 @@ export const SCHEDULE: Schedule[] = [
 ];
 
 export const ORGANIZERS: Organizer[] = [
-  {
-    name: "Lorenzo Peña",
-    photo: require("../assets/staff/lorinkoz.jpg"),
-    social: "https://twitter.com/lorinkoz",
-  },
+  // {
+  //   name: "Lorenzo Peña",
+  //   photo: require("../assets/staff/lorinkoz.jpg"),
+  //   social: "https://twitter.com/lorinkoz",
+  // },
   {
     name: "Carlos Parra",
     photo: require("../assets/staff/carlosparraz.jpg"),
     social: "https://libreoffice.cubava.cu",
   },
-  {
-    name: "Leodanis Pozo",
-    photo: require("../assets/staff/lpozo78.jpg"),
-    social: "https://twitter.com/lpozo78",
-  },
-  {
-    name: "Oscar Garcell",
-    photo: require("../assets/staff/codeshard.jpg"),
-    social: "https://twitter.com/codeshard",
-  },
+  // {
+  //   name: "Leodanis Pozo",
+  //   photo: require("../assets/staff/lpozo78.jpg"),
+  //   social: "https://twitter.com/lpozo78",
+  // },
+  // {
+  //   name: "Oscar Garcell",
+  //   photo: require("../assets/staff/codeshard.jpg"),
+  //   social: "https://twitter.com/codeshard",
+  // },
   {
     name: "Yisel Clavel",
     photo: require("../assets/staff/yisel_clavel.jpg"),
@@ -291,9 +290,9 @@ export const ORGANIZERS: Organizer[] = [
     photo: require("../assets/staff/RagnarokReinier.jpg"),
     social: "https://twitter.com/RagnarokReinier",
   },
-  {
-    name: "Pedro Almirall",
-    photo: require("../assets/staff/ktowen_dev.jpg"),
-    social: "https://twitter.com/ktowen_dev",
-  },
+  // {
+  //   name: "Pedro Almirall",
+  //   photo: require("../assets/staff/ktowen_dev.jpg"),
+  //   social: "https://twitter.com/ktowen_dev",
+  // },
 ];

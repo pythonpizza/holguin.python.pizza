@@ -41,7 +41,7 @@ export default class Header extends React.Component {
                 ¿Cómo que 🍕?
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 onClick={this.onNavClick}
                 href="#speakers"
@@ -49,8 +49,8 @@ export default class Header extends React.Component {
               >
                 Keynotes
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 onClick={this.onNavClick}
                 href="#schedule"
@@ -58,16 +58,16 @@ export default class Header extends React.Component {
               >
                 Programa
               </a>
-            </li>
-            {/* <li>
+            </li> */}
+            <li>
               <a
-                href="https://forms.gle/feQmZLe2vb2LQJyN9"
+                href="https://link.ragnarok22.dev/pythonpizzaholguin2022"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 CfP
               </a>
-            </li> */}
+            </li>
             <li>
               <a onClick={this.onNavClick} href="#coc" data-destination="coc">
                 CoC

@@ -27,10 +27,10 @@ export default class About extends React.Component {
           </p>
           <br />
           <p>
-            La edición 2022 del Python Pizza Holguín es la segunda vez que se realiza en
-            Cuba, y la idea original viene de Python Pizza Nápoles. Si
-            quieres saber más, mira lo que ha sucedido en las ediciones pasadas
-            de Python Pizza en Holguín y en otras partes del mundo:
+            La edición 2022 del Python Pizza Holguín es la tercera vez que se
+            realiza en Cuba, y la idea original viene de Python Pizza Nápoles.
+            Si quieres saber más, mira lo que ha sucedido en las ediciones
+            pasadas de Python Pizza en Holguín y en otras partes del mundo:
             <br />
             <br />
           </p>
