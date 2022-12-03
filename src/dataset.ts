@@ -110,42 +110,54 @@ export const SPONSORS: Sponsor[] = [
   //   link: "https://cubamaps.travel/es/compras/tiendas/75022-tienda-la-lucecita",
   //   photo: require("../assets/sponsors/la-lucecita.png"),
   // },
-  {
-    id: "freemance",
-    name: "Freemance",
-    link: "https://freemance.slyk.io",
-    photo: require("../assets/sponsors/freemance.png"),
-  },
-  {
-    id: "echateesto",
-    name: "Échate esto",
-    link: "https://wa.me/+5358421848",
-    photo: require("../assets/sponsors/echate_esto.png"),
-  },
-  {
-    id: "kwelta",
-    name: "Kwelta",
-    link: "https://kwelta.tech",
-    photo: require("../assets/sponsors/kwelta.png"),
-  },
-  {
-    id: "bchc",
-    name: "Bachecubano",
-    link: "https://www.bachecubano.com/",
-    photo: require("../assets/sponsors/logo-bachecubano.png"),
-  },
+  // {
+  //   id: "freemance",
+  //   name: "Freemance",
+  //   link: "https://freemance.slyk.io",
+  //   photo: require("../assets/sponsors/freemance.png"),
+  // },
+  // {
+  //   id: "echateesto",
+  //   name: "Échate esto",
+  //   link: "https://wa.me/+5358421848",
+  //   photo: require("../assets/sponsors/echate_esto.png"),
+  // },
+  // {
+  //   id: "kwelta",
+  //   name: "Kwelta",
+  //   link: "https://kwelta.tech",
+  //   photo: require("../assets/sponsors/kwelta.png"),
+  // },
+  // {
+  //   id: "bchc",
+  //   name: "Bachecubano",
+  //   link: "https://www.bachecubano.com/",
+  //   photo: require("../assets/sponsors/logo-bachecubano.png"),
+  // },
   // {
   //   id: "cuban_trail_team",
   //   name: "Cuban Trail Team",
   //   link: "https://www.cubantrailteam.com/",
   //   photo: require("../assets/sponsors/cuban-trail-team.jpg"),
   // },
-  // {
-  //   id: "uho",
-  //   name: "Universidad de Holguín",
-  //   link: "https://www.uho.edu.cu/",
-  //   photo: require("../assets/sponsors/uho.jpg"),
-  // },
+  {
+    id: "uho",
+    name: "Universidad de Holguín",
+    link: "https://www.uho.edu.cu/",
+    photo: require("../assets/sponsors/uho.jpg"),
+  },
+  {
+    id: "qvapay",
+    name: "QvaPay",
+    link: "https://qvapay.com/",
+    photo: require("../assets/sponsors/qvapay.png"),
+  },
+  {
+    id: "qvashop",
+    name: "QvaShop",
+    link: "https://www.qvashop.com",
+    photo: require("../assets/sponsors/qvashop.png"),
+  },
 ];
 
 export const PIZZA_SPONSOR: Sponsor = {

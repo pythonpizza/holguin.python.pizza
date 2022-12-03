@@ -59,7 +59,7 @@ export default class Header extends React.Component {
                 Programa
               </a>
             </li> */}
-            <li>
+            {/* <li>
               <a
                 href="https://link.ragnarok22.dev/pythonpizzaholguin2022"
                 target="_blank"
@@ -67,7 +67,7 @@ export default class Header extends React.Component {
               >
                 CfP
               </a>
-            </li>
+            </li> */}
             <li>
               <a onClick={this.onNavClick} href="#coc" data-destination="coc">
                 CoC
