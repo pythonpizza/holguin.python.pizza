@@ -22,55 +22,35 @@ export const KEYNOTE_SPEAKERS: Speaker[] = [
   //   job: ["MatCom", "Universidad de La Habana"],
   //   social: "https://apiad.net",
   // },
+  // {
+  //   name: "Lorenzo Carbonell",
+  //   photo: require("../assets/speakers/lorenzocarbonell.jpg"),
+  //   job: ["Desarrollador"],
+  //   social: "https://atareao.es",
+  // },
   {
-    name: "Lorenzo Carbonell",
-    photo: require("../assets/speakers/lorenzocarbonell.jpg"),
-    job: ["Desarrollador"],
-    social: "https://atareao.es",
+    name: "Roberto A. Becerra García",
+    photo: require("../assets/speakers/idertator.jpg"),
+    job: ["CTO Top Group Express"],
+    social: "https://twitter.com/idertator",
   },
 ];
 
 export const REGULAR_SPEAKERS: Speaker[] = [
   {
-    name: "Daniel Gonzalez",
-    photo: require("../assets/speakers/danielgonzalez.jpg"),
-    social: "https://twitter.com/dgrojas1978",
+    name: "Favier Alejandro Rojas",
+    photo: require("../assets/speakers/alexcuan.jpg"),
+    social: "https://twitter.com/Alex_Cuan_",
   },
   {
-    name: "Pedro Machado",
-    photo: require("../assets/speakers/pedromachado.jpg"),
-    social: "https://twitter.com/machado_leiva",
+    name: "Igr Alexánder Fernández",
+    photo: require("../assets/speakers/alexfdezsauco.jpg"),
+    social: "https://twitter.com/alexfdezsauco",
   },
   {
-    name: "Eduardo Ismael García Pérez",
-    photo: require("../assets/speakers/eduardo.jpg"),
-    social: "https://twitter.com/eduardo_gpg",
-  },
-  {
-    name: "Vladimir Reyes La O",
-    photo: require("../assets/speakers/vladimir.jpg"),
-    social: "https://twitter.com/vreyes7",
-  },
-  {
-    name: "Sara Iris Garcia",
-    photo: require("../assets/speakers/sarairis.jpg"),
-    social: "https://linkedin.com/in/sarairisgarcia",
-  },
-  {
-    name: "Rasel Agüero Fernández",
-    photo: require("../assets/speakers/rasel.jpg"),
-    social:
-      "https://www.linkedin.com/in/rasel-ag%C3%BCero-fern%C3%A1ndez-28a506200/",
-  },
-  {
-    name: "Lorenzo Peña",
-    photo: require("../assets/speakers/lorinkoz.jpg"),
-    social: "https://twitter.com/lorinkoz",
-  },
-  {
-    name: "Yisel Clavel Quintero",
-    photo: require("../assets/staff/yisel_clavel.jpg"),
-    social: "https://twitter.com/yisel_clavel",
+    name: "Reinier Hernández",
+    photo: require("../assets/staff/RagnarokReinier.jpg"),
+    social: "https://twitter.com/RagnarokReinier",
   },
 ];
 
@@ -98,48 +78,6 @@ export const MAIN_SPONSORS: Sponsor[] = [
 ];
 
 export const SPONSORS: Sponsor[] = [
-  // {
-  //   id: "proyecto_delta",
-  //   name: "Proyecto Delta",
-  //   link: "https://www.facebook.com/proyectodelta101",
-  //   photo: require("../assets/sponsors/proyecto-delta.png"),
-  // },
-  // {
-  //   id: "llu",
-  //   name: "La Lucecita",
-  //   link: "https://cubamaps.travel/es/compras/tiendas/75022-tienda-la-lucecita",
-  //   photo: require("../assets/sponsors/la-lucecita.png"),
-  // },
-  // {
-  //   id: "freemance",
-  //   name: "Freemance",
-  //   link: "https://freemance.slyk.io",
-  //   photo: require("../assets/sponsors/freemance.png"),
-  // },
-  // {
-  //   id: "echateesto",
-  //   name: "Échate esto",
-  //   link: "https://wa.me/+5358421848",
-  //   photo: require("../assets/sponsors/echate_esto.png"),
-  // },
-  // {
-  //   id: "kwelta",
-  //   name: "Kwelta",
-  //   link: "https://kwelta.tech",
-  //   photo: require("../assets/sponsors/kwelta.png"),
-  // },
-  // {
-  //   id: "bchc",
-  //   name: "Bachecubano",
-  //   link: "https://www.bachecubano.com/",
-  //   photo: require("../assets/sponsors/logo-bachecubano.png"),
-  // },
-  // {
-  //   id: "cuban_trail_team",
-  //   name: "Cuban Trail Team",
-  //   link: "https://www.cubantrailteam.com/",
-  //   photo: require("../assets/sponsors/cuban-trail-team.jpg"),
-  // },
   {
     id: "uho",
     name: "Universidad de Holguín",
@@ -176,27 +114,34 @@ export const SCHEDULE: Schedule[] = [
     type: Types.OTHER,
   },
   {
-    title: "¿Qué me ha dado Python?",
+    title: "Herramientas de Python fuera de los IDE",
     duration: 30,
     type: Types.KEYNOTE,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Lorenzo Carbonell"),
+    speaker: SPEAKERS.findIndex((x) => x.name == "Roberto A. Becerra García"),
   },
   {
-    title: "Scrapping the web with Python",
-    summary: "Learn how to scrape the web with python and beautifulsoup.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Daniel Gonzalez"),
-  },
-  {
-    title: "Web3.py la Alternativa de Python de Web3",
+    title: "FastAPI: The New Kid in Town",
     summary:
-      "Python como uno de los lenguajes de propósito general más usado en todo tipo " +
-      "de aplicaciones no se queda atrás si de Blockhain se trata. Web3.py aparece como" +
-      " la backend API oficial para desarrolladores Web3 de la Ethereum Fundation.",
+      "FastAPI es un framework relativamente reciente, pero con una gran acogida por parte de la comunidad dev.",
     type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Pedro Machado"),
+    duration: 11,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Favier Alejandro Rojas"),
+  },
+  {
+    title: "¿Cómo evitar copiar películas que nunca reproducirás?",
+    summary:
+      "Puedes tener una obsesión por copiar y organizar películas en tu limitado almacenamiento personal pero nunca las reproducirás. ¿Cómo evitas copiarlas?",
+    type: Types.TALK,
+    duration: 17,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Igr Alexánder Fernández"),
+  },
+  {
+    title: "Dos cucharaditas de Django",
+    summary:
+      "Mejora la estructura de tu proyecto en Django utilizando buenas prácticas y configuraciones para diferentes entornos de trabajo.",
+    type: Types.TALK,
+    duration: 11,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Reinier Hernández"),
   },
   // {
   //   title: "Cómo importar tablas en archivos pdf a pandas",
@@ -222,43 +167,6 @@ export const SCHEDULE: Schedule[] = [
   //   duration: 12,
   //   speaker: SPEAKERS.findIndex((x) => x.name == "Eduardo Ismael García Pérez"),
   // },
-  {
-    title: "Administradores de redes y Python",
-    summary:
-      "Python no es solo desarrollo web e inteligencia artificial.  A partir de la " +
-      "versatilidad del lenguaje surgen diversas áreas de aplicación. Python desde el " +
-      "punto de vista de un aspirante a administrador de red, este es el tema de la " +
-      "siguiente presentación.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Vladimir Reyes La O"),
-  },
-  {
-    title: "Back to the Pony",
-    summary:
-      "Lo que el tú del futuro le diría al tú del presente sobre un " +
-      "proyecto de Django que empieza de cero.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Lorenzo Peña"),
-  },
-  {
-    title: "Kivy y Kivymd, dualidad de poder y estilo",
-    summary:
-      "La charla expone la fortaleza y facilidad de Python en el campo de " +
-      "aplicación Interfaz de Usuario para un ambiente multiplataforma. " +
-      "Utilizando el framework kivy y la colección de widgets kivymd.",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Rasel Agüero Fernández"),
-  },
-  {
-    title: "Detectando ironías con LSTM y Tensorflow",
-    summary: "",
-    type: Types.TALK,
-    duration: 12,
-    speaker: SPEAKERS.findIndex((x) => x.name == "Yisel Clavel Quintero"),
-  },
   {
     title: "Despedida 👋",
     duration: 6,
