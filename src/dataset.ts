@@ -52,6 +52,12 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     photo: require("../assets/staff/RagnarokReinier.jpg"),
     social: "https://twitter.com/RagnarokReinier",
   },
+  {
+    name: "Rasel Agüero Fernández",
+    photo: require("../assets/speakers/raselaguero.jpg"),
+    social:
+      "https://www.linkedin.com/in/rasel-ag%C3%BCero-fern%C3%A1ndez-28a506200",
+  },
 ];
 
 export const SPEAKERS: Speaker[] = [...KEYNOTE_SPEAKERS, ...REGULAR_SPEAKERS];
@@ -142,6 +148,14 @@ export const SCHEDULE: Schedule[] = [
     type: Types.TALK,
     duration: 11,
     speaker: SPEAKERS.findIndex((x) => x.name == "Reinier Hernández"),
+  },
+  {
+    title: "No dudes en raspar un muro",
+    summary:
+      "Si te apasiona el mundo de los datos y quieres iniciarte en el asombroso campo de la “Ciencia de Datos”, pues llegas a tiempo. Voy a hablarte de una de las principales piezas de este complicado puzzle, “El raspado web o web scraping”.",
+    type: Types.TALK,
+    duration: 9,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Rasel Agüero Fernández"),
   },
   // {
   //   title: "Cómo importar tablas en archivos pdf a pandas",
