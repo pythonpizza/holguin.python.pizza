@@ -58,6 +58,12 @@ export const REGULAR_SPEAKERS: Speaker[] = [
     social:
       "https://www.linkedin.com/in/rasel-ag%C3%BCero-fern%C3%A1ndez-28a506200",
   },
+  {
+    name: "Yisel Clavel",
+    photo: require("../assets/staff/yisel_clavel.jpg"),
+    social:
+      "https://twitter.com/yisel_clavel",
+  },
 ];
 
 export const SPEAKERS: Speaker[] = [...KEYNOTE_SPEAKERS, ...REGULAR_SPEAKERS];
@@ -156,6 +162,14 @@ export const SCHEDULE: Schedule[] = [
     type: Types.TALK,
     duration: 9,
     speaker: SPEAKERS.findIndex((x) => x.name == "Rasel Agüero Fernández"),
+  },
+  {
+    title: "Analizando opiniones de usuarios de Tripadvisor",
+    summary:
+      "Tripadvisor es un espacio común para que los usuarios publiquen sus opiniones sobre los servicios turísticos: alojamientos, restaurantes. Cómo analizar la gran cantidad de opiniones publicadas de forma automática para clasificarlas en positivas, negativas, irónicas?",
+    type: Types.TALK,
+    duration: 10,
+    speaker: SPEAKERS.findIndex((x) => x.name == "Yisel Clavel"),
   },
   // {
   //   title: "Cómo importar tablas en archivos pdf a pandas",
