@@ -152,7 +152,7 @@ export const SCHEDULE: Schedule[] = [
     summary:
       "Mejora la estructura de tu proyecto en Django utilizando buenas prácticas y configuraciones para diferentes entornos de trabajo.",
     type: Types.TALK,
-    duration: 11,
+    duration: 16,
     speaker: SPEAKERS.findIndex((x) => x.name == "Reinier Hernández"),
   },
   {
